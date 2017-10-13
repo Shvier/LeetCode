@@ -6,8 +6,6 @@
 	<dict>
 		<key>1-TwoSum.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
@@ -29,17 +27,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C09FD1501F8E3D0B0096AF2A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C09FD15E1F8E616F0096AF2A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C09FD1691F8E61CA0096AF2A</key>
+		<key>C0965CD81F90B3900076D253</key>
 		<dict>
 			<key>primary</key>
 			<true/>
