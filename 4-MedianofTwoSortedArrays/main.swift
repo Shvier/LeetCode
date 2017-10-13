@@ -2,7 +2,7 @@
 //  main.swift
 //  4-MedianofTwoSortedArrays
 //
-//  Created by Shvier on 13/10/2017.
+//  Created by Shvier on 12/10/2017.
 //  Copyright © 2017 Shvier. All rights reserved.
 //
 

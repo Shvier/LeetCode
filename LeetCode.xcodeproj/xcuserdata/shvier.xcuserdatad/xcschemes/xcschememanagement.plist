@@ -6,6 +6,8 @@
 	<dict>
 		<key>1-TwoSum.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
@@ -24,10 +26,45 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>5-LongestPalindromicSubstring.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C0965CD81F90B3900076D253</key>
+		<key>C06109221F8F1293007A830B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C064FCDC1F90871B002ACE7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C09FD1501F8E3D0B0096AF2A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C09FD15E1F8E616F0096AF2A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C09FD1691F8E61CA0096AF2A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C09FD1741F8E62A70096AF2A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C09FD17F1F8E75630096AF2A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

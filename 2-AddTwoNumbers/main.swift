@@ -2,7 +2,7 @@
 //  main.swift
 //  2-AddTwoNumbers
 //
-//  Created by Shvier on 13/10/2017.
+//  Created by Shvier on 11/10/2017.
 //  Copyright © 2017 Shvier. All rights reserved.
 //
 
@@ -61,3 +61,4 @@ while result != nil {
     print((result?.val)!)
     result = result?.next
 }
+
