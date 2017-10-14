@@ -10,6 +10,7 @@ import Foundation
 
 class Solution {
     
+    // TLE
     static func isValid(s: String) -> Bool {
         let length = s.lengthOfBytes(using: .utf8)
         let array = Array(s.characters)
@@ -71,6 +72,38 @@ class Solution {
         }
         return result
     }
+    
+    // TLE
+    static func longest(_ s: String) -> String {
+        var start: Int = 0
+        var end: Int = 0
+        for i in 0..<s.lengthOfBytes(using: .utf8) {
+            let length1 = Solution.expandAroundCenter(s: s, left: i, right: i)
+            let length2 = Solution.expandAroundCenter(s: s, left: i, right: i + 1)
+            let length = max(length1, length2)
+            if length > (end - start) {
+                start = i - (length - 1)/2
+                end = i + length/2
+            }
+        }
+        let startIndex = s.index(s.startIndex, offsetBy: start)
+        let endIndex = s.index(s.startIndex, offsetBy: end)
+        return s[startIndex...endIndex]
+    }
+    
+    static func expandAroundCenter(s: String, left: Int, right: Int) -> Int {
+        let characters = [Character](s.characters)
+        var l = left
+        var r = right
+        while l >= 0 && r < s.lengthOfBytes(using: .utf8) && characters[l] == characters[r] {
+            l -= 1
+            r += 1
+        }
+        return r - l - 1
+    }
+    
 }
 
 print(Solution.longestPalindrome("nmngaowrbsssvihklwmuqshcddwlxrywrlwtennwfvrevgvhsvgeccfulmuvrcksdmgeqrblnlwoepefhcwhmgyvgcoyyygrmttyfycxwbqktpurlcfhzlakhmrddsydgygganpmaglaxyhfwjusukzcnakznygqplngnkhcowavxoiwrfycxwdkxqfcjqwyqutcpyedbnuogedwobsktgioqdczxhikjrbkmqspnxcpngfdwdaboscqbkwforihzqdcppxjksiujfvlpdjryewaxgmdgigvxdlstxwngtbdrrkfudjinzyxbdmkautclvvyguekuzwwetmsxittgtxbnvvrgasvnlogdiepltweaehubwelznidltzlbzdsrxmhjpkmylnwkdsxnpkplkdzywioluaqguowtbaoqzqgjfewphqcvlnwlojbxgomvxxkhwwykawegxubjiobizicuxzeafgautefsurgjlbhcfevqzsbhwxycrcaibdsgluczcuewzqupakbzmcvzsfodbmgtugnihyhqkvyeboqhqldifbxuaxqzxtyejoswikbzpsvzkxcndgeyvfnyrfbkhlalzpqjueibnodamgpnxlkvwvliouvejcpnakllfxepldfmdzszagkyhdgqqbkb"))
+
+print(Solution.longest("kztakrekvefgchersuoiuatzlmwynzjhdqqftjcqmntoyckqfawikkdrnfgbwtdpbkymvwoumurjdzygyzsbmwzpcxcdmmpwzmeibligwiiqbecxwyxigikoewwrczkanwwqukszsbjukzumzladrvjefpegyicsgctdvldetuegxwihdtitqrdmygdrsweahfrepdcudvyvrggbkthztxwicyzazjyeztytwiyybqdsczozvtegodacdokczfmwqfmyuixbeeqluqcqwxpyrkpfcdosttzooykpvdykfxulttvvwnzftndvhsvpgrgdzsvfxdtzztdiswgwxzvbpsjlizlfrlgvlnwbjwbujafjaedivvgnbgwcdbzbdbprqrflfhahsvlcekeyqueyxjfetkxpapbeejoxwxlgepmxzowldsmqllpzeymakcshfzkvyykwljeltutdmrhxcbzizihzinywggzjctzasvefcxmhnusdvlderconvaisaetcdldeveeemhugipfzbhrwidcjpfrumshbdofchpgcsbkvaexfmenpsuodatxjavoszcitjewflejjmsuvyuyrkumednsfkbgvbqxfphfqeqozcnabmtedffvzwbgbzbfydiyaevoqtfmzxaujdydtjftapkpdhnbmrylcibzuqqynvnsihmyxdcrfftkuoymzoxpnashaderlosnkxbhamkkxfhwjsyehkmblhppbyspmcwuoguptliashefdklokjpggfiixozsrlwmeksmzdcvipgkwxwynzsvxnqtchgwwadqybkguscfyrbyxudzrxacoplmcqcsmkraimfwbauvytkxdnglwfuvehpxd"))
