@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C06109221F8F1293007A830B"
+               BlueprintIdentifier = "C034E9A01F91E4E200D19AE6"
                BuildableName = "4-MedianofTwoSortedArrays"
                BlueprintName = "4-MedianofTwoSortedArrays"
                ReferencedContainer = "container:LeetCode.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C06109221F8F1293007A830B"
+            BlueprintIdentifier = "C034E9A01F91E4E200D19AE6"
             BuildableName = "4-MedianofTwoSortedArrays"
             BlueprintName = "4-MedianofTwoSortedArrays"
             ReferencedContainer = "container:LeetCode.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C06109221F8F1293007A830B"
+            BlueprintIdentifier = "C034E9A01F91E4E200D19AE6"
             BuildableName = "4-MedianofTwoSortedArrays"
             BlueprintName = "4-MedianofTwoSortedArrays"
             ReferencedContainer = "container:LeetCode.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C06109221F8F1293007A830B"
+            BlueprintIdentifier = "C034E9A01F91E4E200D19AE6"
             BuildableName = "4-MedianofTwoSortedArrays"
             BlueprintName = "4-MedianofTwoSortedArrays"
             ReferencedContainer = "container:LeetCode.xcodeproj">

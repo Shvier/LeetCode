@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C064FCDC1F90871B002ACE7A"
+               BlueprintIdentifier = "C034E9AB1F91E4FD00D19AE6"
                BuildableName = "5-LongestPalindromicSubstring"
                BlueprintName = "5-LongestPalindromicSubstring"
                ReferencedContainer = "container:LeetCode.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C064FCDC1F90871B002ACE7A"
+            BlueprintIdentifier = "C034E9AB1F91E4FD00D19AE6"
             BuildableName = "5-LongestPalindromicSubstring"
             BlueprintName = "5-LongestPalindromicSubstring"
             ReferencedContainer = "container:LeetCode.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C064FCDC1F90871B002ACE7A"
+            BlueprintIdentifier = "C034E9AB1F91E4FD00D19AE6"
             BuildableName = "5-LongestPalindromicSubstring"
             BlueprintName = "5-LongestPalindromicSubstring"
             ReferencedContainer = "container:LeetCode.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C064FCDC1F90871B002ACE7A"
+            BlueprintIdentifier = "C034E9AB1F91E4FD00D19AE6"
             BuildableName = "5-LongestPalindromicSubstring"
             BlueprintName = "5-LongestPalindromicSubstring"
             ReferencedContainer = "container:LeetCode.xcodeproj">

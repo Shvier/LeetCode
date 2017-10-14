@@ -2,7 +2,7 @@
 //  main.swift
 //  1-TwoSum
 //
-//  Created by Shvier on 11/10/2017.
+//  Created by Shvier on 14/10/2017.
 //  Copyright © 2017 Shvier. All rights reserved.
 //
 
@@ -23,3 +23,4 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     }
     return result
 }
+

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C09FD17F1F8E75630096AF2A"
+               BlueprintIdentifier = "C034E9951F91E4C400D19AE6"
                BuildableName = "3-LongestSubstringWithoutRepeatingCharacters"
                BlueprintName = "3-LongestSubstringWithoutRepeatingCharacters"
                ReferencedContainer = "container:LeetCode.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C09FD17F1F8E75630096AF2A"
+            BlueprintIdentifier = "C034E9951F91E4C400D19AE6"
             BuildableName = "3-LongestSubstringWithoutRepeatingCharacters"
             BlueprintName = "3-LongestSubstringWithoutRepeatingCharacters"
             ReferencedContainer = "container:LeetCode.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C09FD17F1F8E75630096AF2A"
+            BlueprintIdentifier = "C034E9951F91E4C400D19AE6"
             BuildableName = "3-LongestSubstringWithoutRepeatingCharacters"
             BlueprintName = "3-LongestSubstringWithoutRepeatingCharacters"
             ReferencedContainer = "container:LeetCode.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C09FD17F1F8E75630096AF2A"
+            BlueprintIdentifier = "C034E9951F91E4C400D19AE6"
             BuildableName = "3-LongestSubstringWithoutRepeatingCharacters"
             BlueprintName = "3-LongestSubstringWithoutRepeatingCharacters"
             ReferencedContainer = "container:LeetCode.xcodeproj">
