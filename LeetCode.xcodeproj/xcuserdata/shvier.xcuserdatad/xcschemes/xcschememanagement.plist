@@ -7,24 +7,29 @@
 		<key>1-TwoSum.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>2-AddTwoNumbers.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<key>3-LongestSubstringWithoutRepeatingCharacters.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<key>4-MedianofTwoSortedArrays.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>3</integer>
 		</dict>
 		<key>5-LongestPalindromicSubstring.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>6-ZigZagConversion.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
@@ -58,6 +63,11 @@
 			<true/>
 		</dict>
 		<key>C034E9AB1F91E4FD00D19AE6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0E6D0311F91FF80006905FD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
