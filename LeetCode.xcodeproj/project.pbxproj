@@ -765,6 +765,7 @@
 				C0E6D0371F91FF81006905FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

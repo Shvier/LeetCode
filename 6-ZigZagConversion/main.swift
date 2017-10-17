@@ -10,6 +10,42 @@ import Foundation
 
 class Solution {
     
+    // AC
+    static func convert0(s: String, numRows: Int) -> String {
+        if numRows == 1 {
+            return s
+        }
+        var result = ""
+        var step1: Int = 0
+        var step2: Int = 0
+        let length = s.lengthOfBytes(using: .utf8)
+        let characters = [Character](s.characters)
+        for index in 0..<numRows {
+            step1 = (numRows - index - 1)*2
+            step2 = index*2
+            var postion = index
+            if postion < length {
+                result += String(characters[index])
+            }
+            while true {
+                postion += step1
+                if postion >= length {
+                    break
+                } else if step1 > 0 {
+                    result += String(characters[postion])
+                }
+                postion += step2
+                if postion >= length {
+                    break
+                } else if step2 > 0 {
+                    result += String(characters[postion])
+                }
+            }
+        }
+        return result
+    }
+    
+    // TLE
     static func convert(_ s: String, _ numRows: Int) -> String {
         if s.lengthOfBytes(using: .utf8) < 1 {
             return s
@@ -45,13 +81,6 @@ class Solution {
         for strings in letters {
             result += strings.joined()
         }
-        for strings in letters {
-            for string in strings {
-                print(string)
-                print(" ")
-            }
-            print("\n")
-        }
         return result
     }
     
@@ -78,9 +107,11 @@ class Solution {
             y = indexOfDuration*colsInOneDuration + indexBeyondDuration
             x = numRows - indexBeyondDuration - 1
         }
+        print("\(x), \(y)")
         return (x, y)
     }
     
 }
 
-print(Solution.convert("nywxjowtmvluoyijcuskwwgabuoqtaqgyodkcbdpyojmntxropeknkkqhagacyidnnnprqepgqevjbnxttjgfwxmwdozcyepmrgfhnundyjmcymvtxbytalqebriavxoodtvqnkvovksvwnovqnprahvbyfbvcpjhkgaysxoqhgnfvcblrqctxzuxeyuipdsalsafroxzwlerphcgxhzwivtntnxlspnfjnlbdkczvgqkouqnbrkknfzityvnqitzvgcyqezmnpydkrsniczxiyidzdspolqjttkmzjaobyrnpkaaoazyahdznwobjhmdaypbkpqlnjyftafkagkdoocdktgtasyctnddcvosfozaogkrmvuclyfvrlqtgpvzebchwsbbgacwionulhxwgctzqktwbqvfrzoqrrrztvvbmlwxstwaxpcnbxlcngkhhyxaqqzlovnagjzacvdznhpoeattjfcqdbrvsshgpwixfhajffksmzisadlliqboruljpureqbcxlcgqhrkvqunsaadiqhyidmtsgnxzobwbfdrowdjmayhaymiptjzzvurdhqeytbzygtocwxqwvxwukhlfsmgpgyuoqzmmcnkigzkdycbwaasmjdtdpasxamlslzennrxt", 553))
+print(Solution.convert0(s: "ABCD", numRows: 2))
+//print(Solution.convert("nywxjowtmvluoyijcuskwwgabuoqtaqgyodkcbdpyojmntxropeknkkqhagacyidnnnprqepgqevjbnxttjgfwxmwdozcyepmrgfhnundyjmcymvtxbytalqebriavxoodtvqnkvovksvwnovqnprahvbyfbvcpjhkgaysxoqhgnfvcblrqctxzuxeyuipdsalsafroxzwlerphcgxhzwivtntnxlspnfjnlbdkczvgqkouqnbrkknfzityvnqitzvgcyqezmnpydkrsniczxiyidzdspolqjttkmzjaobyrnpkaaoazyahdznwobjhmdaypbkpqlnjyftafkagkdoocdktgtasyctnddcvosfozaogkrmvuclyfvrlqtgpvzebchwsbbgacwionulhxwgctzqktwbqvfrzoqrrrztvvbmlwxstwaxpcnbxlcngkhhyxaqqzlovnagjzacvdznhpoeattjfcqdbrvsshgpwixfhajffksmzisadlliqboruljpureqbcxlcgqhrkvqunsaadiqhyidmtsgnxzobwbfdrowdjmayhaymiptjzzvurdhqeytbzygtocwxqwvxwukhlfsmgpgyuoqzmmcnkigzkdycbwaasmjdtdpasxamlslzennrxt", 553))
