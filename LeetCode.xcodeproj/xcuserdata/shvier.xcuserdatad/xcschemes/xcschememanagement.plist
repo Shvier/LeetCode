@@ -37,6 +37,11 @@
 		<key>7-ReverseInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>8-StringtoInteger(atoi).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
 	</dict>
@@ -68,6 +73,11 @@
 			<true/>
 		</dict>
 		<key>C034E9AB1F91E4FD00D19AE6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0D27D2A1F98F8B50025F343</key>
 		<dict>
 			<key>primary</key>
 			<true/>
