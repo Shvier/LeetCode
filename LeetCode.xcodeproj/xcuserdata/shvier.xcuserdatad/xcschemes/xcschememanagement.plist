@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>9-PalindromeNumber.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -78,6 +83,11 @@
 			<true/>
 		</dict>
 		<key>C0D27D2A1F98F8B50025F343</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0E22C1F1F9B39070017A87C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
