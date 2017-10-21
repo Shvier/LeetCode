@@ -27,8 +27,8 @@ class Solution {
             step = 1
         }
         let stringLength = trimmedString.lengthOfBytes(using: .utf8)
-        let max = Int(INT32_MAX)
-        let min = Int(-INT32_MAX)
+        let max = 2147483647
+        let min = -2147483648
         while stringLength > step &&
             String(describing: characters[step]) >= "0" &&
             String(describing: characters[step]) <= "9" {
@@ -38,11 +38,13 @@ class Solution {
                 result = result*10 + asc - zero
                 step += 1
                 if result > max {
-                    return max
+                    if flag {
+                        return max
+                    } else {
+                        return min
+                    }
                 }
-                if result < min {
-                    return min
-                }
+
         }
         if !flag {
             result = -result
