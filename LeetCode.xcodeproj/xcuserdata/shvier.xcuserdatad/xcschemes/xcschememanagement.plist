@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>10-RegularExpressionMatching.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>2-AddTwoNumbers.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -88,6 +93,11 @@
 			<true/>
 		</dict>
 		<key>C0E22C1F1F9B39070017A87C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0E22C2A1F9B41100017A87C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
