@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>13-RomantoInteger.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>2-AddTwoNumbers.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -103,6 +108,21 @@
 			<true/>
 		</dict>
 		<key>C06827331FA1DB9C004CDD41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0A31B141FA4279F00107892</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0ABFD361FA4213D00AF058B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0ABFD411FA4219D00AF058B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
