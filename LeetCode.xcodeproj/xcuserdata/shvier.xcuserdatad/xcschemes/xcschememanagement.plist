@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>15-3Sum.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 		<key>2-AddTwoNumbers.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -113,6 +118,11 @@
 			<true/>
 		</dict>
 		<key>C06827331FA1DB9C004CDD41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C09F889C1FAB619C0012AFC3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
