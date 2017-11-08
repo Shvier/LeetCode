@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
+		<key>17-LetterCombinationsofaPhoneNumber.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>2-AddTwoNumbers.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -118,6 +123,11 @@
 			<true/>
 		</dict>
 		<key>C05254961FA32DBB00B85DE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C065BB8E1FB2F80100EAF925</key>
 		<dict>
 			<key>primary</key>
 			<true/>
