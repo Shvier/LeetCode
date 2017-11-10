@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C02A41291FB5FCFA003EBC18 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02A41281FB5FCFA003EBC18 /* main.swift */; };
 		C034E9831F91E45100D19AE6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034E9821F91E45100D19AE6 /* main.swift */; };
 		C034E98E1F91E4A800D19AE6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034E98D1F91E4A800D19AE6 /* main.swift */; };
 		C034E9991F91E4C400D19AE6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C034E9981F91E4C400D19AE6 /* main.swift */; };
@@ -27,6 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		C02A41241FB5FCFA003EBC18 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		C034E9701F91BDFF00D19AE6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,6 +211,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C02A41261FB5FCFA003EBC18 /* 18-4Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18-4Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02A41281FB5FCFA003EBC18 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C034E9721F91BDFF00D19AE6 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		C034E9801F91E45100D19AE6 /* 1-TwoSum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1-TwoSum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C034E9821F91E45100D19AE6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -240,6 +252,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C02A41231FB5FCFA003EBC18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C034E96F1F91BDFF00D19AE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,6 +395,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C02A41271FB5FCFA003EBC18 /* 18-4Sum */ = {
+			isa = PBXGroup;
+			children = (
+				C02A41281FB5FCFA003EBC18 /* main.swift */,
+			);
+			path = "18-4Sum";
+			sourceTree = "<group>";
+		};
 		C034E9691F91BDFF00D19AE6 = {
 			isa = PBXGroup;
 			children = (
@@ -396,6 +423,7 @@
 				C09F889E1FAB619C0012AFC3 /* 15-3Sum */,
 				C06F7A631FADBD620043EDEA /* 16-3SumClosest */,
 				C065BB901FB2F80100EAF925 /* 17-LetterCombinationsofaPhoneNumber */,
+				C02A41271FB5FCFA003EBC18 /* 18-4Sum */,
 				C034E9731F91BDFF00D19AE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -422,6 +450,7 @@
 				C09F889D1FAB619C0012AFC3 /* 15-3Sum */,
 				C06F7A621FADBD620043EDEA /* 16-3SumClosest */,
 				C065BB8F1FB2F80100EAF925 /* 17-LetterCombinationsofaPhoneNumber */,
+				C02A41261FB5FCFA003EBC18 /* 18-4Sum */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -565,6 +594,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C02A41251FB5FCFA003EBC18 /* 18-4Sum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02A412C1FB5FCFA003EBC18 /* Build configuration list for PBXNativeTarget "18-4Sum" */;
+			buildPhases = (
+				C02A41221FB5FCFA003EBC18 /* Sources */,
+				C02A41231FB5FCFA003EBC18 /* Frameworks */,
+				C02A41241FB5FCFA003EBC18 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "18-4Sum";
+			productName = "18-4Sum";
+			productReference = C02A41261FB5FCFA003EBC18 /* 18-4Sum */;
+			productType = "com.apple.product-type.tool";
+		};
 		C034E9711F91BDFF00D19AE6 /* LeetCode */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C034E9791F91BDFF00D19AE6 /* Build configuration list for PBXNativeTarget "LeetCode" */;
@@ -898,6 +944,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Shvier;
 				TargetAttributes = {
+					C02A41251FB5FCFA003EBC18 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PGNG7584J8;
+						ProvisioningStyle = Automatic;
+					};
 					C034E9711F91BDFF00D19AE6 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = PGNG7584J8;
@@ -1026,11 +1077,20 @@
 				C09F889C1FAB619C0012AFC3 /* 15-3Sum */,
 				C06F7A611FADBD620043EDEA /* 16-3SumClosest */,
 				C065BB8E1FB2F80100EAF925 /* 17-LetterCombinationsofaPhoneNumber */,
+				C02A41251FB5FCFA003EBC18 /* 18-4Sum */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C02A41221FB5FCFA003EBC18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02A41291FB5FCFA003EBC18 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C034E96E1F91BDFF00D19AE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1184,6 +1244,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		C02A412A1FB5FCFA003EBC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C02A412B1FB5FCFA003EBC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		C034E9771F91BDFF00D19AE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1619,6 +1697,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C02A412C1FB5FCFA003EBC18 /* Build configuration list for PBXNativeTarget "18-4Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02A412A1FB5FCFA003EBC18 /* Debug */,
+				C02A412B1FB5FCFA003EBC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C034E96D1F91BDFF00D19AE6 /* Build configuration list for PBXProject "LeetCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1698,6 +1784,7 @@
 				C065BB941FB2F80100EAF925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C068273A1FA1DB9C004CDD41 /* Build configuration list for PBXNativeTarget "11-ContainerWithMostWater" */ = {
 			isa = XCConfigurationList;
