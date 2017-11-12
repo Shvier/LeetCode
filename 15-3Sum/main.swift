@@ -12,44 +12,39 @@ class Solution {
     
     static func threeSum(_ nums: [Int]) -> [[Int]] {
         var result = Array<Array<Int>>()
-        for i in 0..<nums.count {
-            for j in i+1..<nums.count {
-                for k in j+1...nums.count {
-                    if k == nums.count {
-                        break
-                    }
-                    let sum = nums[i] + nums[j] + nums[k]
-                    if sum == 0 {
-                        let num = Solution.seq(nums: [nums[i], nums[j] , nums[k]])
-                        if result.count > 0 {
-                            for numbers in result {
-                                if Solution.equal(nums1: numbers, nums2: num) {
-                                    break
-                                }
-                                if numbers == result.last! {
-                                    result.append(num)
-                                }
-                            }
-                        } else {
-                            result.append(num)
-                        }
-                    }
+        let size = nums.count
+        if size < 3 {
+            return result
+        }
+        let sortedNums = nums.sorted()
+        for i in 0..<size-2 {
+            if i > 0 && sortedNums[i] == sortedNums[i-1] {
+                continue
+            }
+            if sortedNums[i] + sortedNums[i+1] + sortedNums[i+2] > 0 {
+                break
+            }
+            if sortedNums[i] + sortedNums[size-2] + sortedNums[size-1] < 0 {
+                continue
+            }
+            var left = i + 1
+            var right = size - 1
+            while left < right {
+                let sum = sortedNums[i] + sortedNums[left] + sortedNums[right]
+                if sum < 0 {
+                    left += 1
+                } else if sum > 0 {
+                    right -= 1
+                } else {
+                    result.append([sortedNums[i], sortedNums[left], sortedNums[right]])
+                    repeat {
+                        left += 1
+                    } while sortedNums[left] == sortedNums[left-1] && left < right
+                    repeat {
+                        right -= 1
+                    } while sortedNums[right] == sortedNums[right+1] && left < right
                 }
             }
-        }
-        return result
-    }
-    
-    static func seq(nums: [Int]) -> [Int] {
-        return nums.sorted()
-    }
-    
-    static func equal(nums1: [Int], nums2: [Int]) -> Bool {
-        var result: Bool = true
-        for i in 0..<nums1.count {
-            let num1 = nums1[i]
-            let num2 = nums2[i]
-            result = result && (num1 == num2)
         }
         return result
     }
