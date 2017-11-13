@@ -13,6 +13,7 @@ class Solution {
     // TLE
     static func threeSumClosest(_ nums: [Int], _ target: Int) -> Int {
         var offset: Int = 0
+        var first: Bool = true
         let size = nums.count
         if size < 3 {
             return 0
@@ -26,17 +27,12 @@ class Solution {
             var right = size - 1
             while left < right {
                 let sum = sortedNums[i] + sortedNums[left] + sortedNums[right]
-                if i == 0 {
+                if first {
                     offset = target - sum
+                    first = false
                 } else {
-                    if target > 0 {
-                        if offset > target - sum {
-                            offset = target - sum
-                        }
-                    } else {
-                        if offset < target - sum {
-                            offset = target - sum
-                        }
+                    if fabs(Double(offset)) > fabs(Double(target - sum)) {
+                        offset = target - sum
                     }
                 }
                 if sum < target {
@@ -53,4 +49,4 @@ class Solution {
     
 }
 
-print(Solution.threeSumClosest([0, 2, 1, -3], 1))
+print(Solution.threeSumClosest([1,2,5,10,11], 12))
