@@ -54,6 +54,11 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>19-RemoveNthNodeFromEndofList.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>2-AddTwoNumbers.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -173,6 +178,11 @@
 			<true/>
 		</dict>
 		<key>C0ABFD411FA4219D00AF058B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0B89BC11FBB40A4007CCB45</key>
 		<dict>
 			<key>primary</key>
 			<true/>
