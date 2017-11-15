@@ -27,17 +27,18 @@ class Solution {
             p = p?.next
         }
         var q: ListNode = ListNode.init(0)
-        q.next = head
-        p?.next = head
+        let o: ListNode = ListNode.init(0)
+        if count == n {
+            q.next = head?.next
+            o.next = head?.next
+        } else {
+            q.next = head
+            o.next = head
+        }
         for _ in 0..<count-n {
             q = q.next!
         }
         q.next = q.next?.next
-        return p?.next
+        return o.next
     }
 }
-
-let node1 = ListNode.init(1)
-let node2 = ListNode.init(2)
-node1.next = node2
-print(Solution.removeNthFromEnd(node1, 1))
