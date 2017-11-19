@@ -69,6 +69,11 @@
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
+		<key>21.-MergeTwoSortedLists.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>3-LongestSubstringWithoutRepeatingCharacters.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -138,6 +143,11 @@
 			<true/>
 		</dict>
 		<key>C034E9AB1F91E4FD00D19AE6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C03D42421FC1CA2E00AEB101</key>
 		<dict>
 			<key>primary</key>
 			<true/>
