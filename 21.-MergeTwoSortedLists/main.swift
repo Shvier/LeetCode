@@ -32,9 +32,9 @@ class Solution {
         var res = ListNode.init(0)
         let result = ListNode.init(0)
         result.next = res
-        while p?.next != nil || q?.next != nil {
+        while p != nil || q != nil {
             if p != nil {
-                if q?.next != nil {
+                if q != nil {
                     if (p?.val)! > (q?.val)! {
                         let node = ListNode.init((q?.val)!)
                         res.next = node
@@ -49,9 +49,8 @@ class Solution {
                     res.next = node
                     p = p?.next
                 }
-                p = p?.next
             } else {
-                if q?.next != nil {
+                if q != nil {
                     let node = ListNode.init((q?.val)!)
                     res.next = node
                     q = q?.next
@@ -65,3 +64,7 @@ class Solution {
     }
     
 }
+
+let list1 = ListNode.init(2)
+let list2 = ListNode.init(1)
+Solution.mergeTwoLists(list1, list2)
