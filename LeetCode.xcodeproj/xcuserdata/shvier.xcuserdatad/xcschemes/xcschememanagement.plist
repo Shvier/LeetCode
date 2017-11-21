@@ -74,6 +74,11 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>22-GenerateParentheses.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
 		<key>3-LongestSubstringWithoutRepeatingCharacters.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -168,6 +173,11 @@
 			<true/>
 		</dict>
 		<key>C06F7A611FADBD620043EDEA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C07FA6581FC2D40100FB5514</key>
 		<dict>
 			<key>primary</key>
 			<true/>
