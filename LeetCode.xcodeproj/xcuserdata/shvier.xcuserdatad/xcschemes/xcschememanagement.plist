@@ -79,6 +79,11 @@
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
+		<key>23-MergeKSortedLists.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
 		<key>3-LongestSubstringWithoutRepeatingCharacters.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -218,6 +223,16 @@
 			<true/>
 		</dict>
 		<key>C0D27D2A1F98F8B50025F343</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0DA0E0C1FC5694800AB0275</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0DA0E171FC5697E00AB0275</key>
 		<dict>
 			<key>primary</key>
 			<true/>
