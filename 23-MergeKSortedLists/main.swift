@@ -24,26 +24,13 @@ class Solution {
         if lists.count == 0 {
             return nil
         }
-        if lists.count == 1 {
-            return lists.first!
+        var result = lists
+        while result.count > 1 {
+            result.append(Solution.mergeTwoLists(result[0], result[1]))
+            result.remove(at: 0)
+            result.remove(at: 0)
         }
-        var firstNode = lists.first!
-        var listNodes = lists
-        listNodes.remove(at: 0)
-        return Solution.mergeLists(&firstNode, &listNodes)
-    }
-    
-    static func mergeLists(_ list: inout ListNode?, _ lists: inout [ListNode?]) -> ListNode? {
-        if lists.count < 1 {
-            return list
-        }
-        if lists.count == 1 {
-            return Solution.mergeTwoLists(list, lists.first!)
-        } else {
-            var firstNode = lists.first!
-            lists.remove(at: 0)
-            return Solution.mergeLists(&firstNode, &lists)
-        }
+        return result.first!
     }
     
     static func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
@@ -53,40 +40,13 @@ class Solution {
         if l2 == nil {
             return l1
         }
-        var p = l1
-        var q = l2
-        var res = ListNode.init(0)
-        let result = ListNode.init(0)
-        result.next = res
-        while p != nil || q != nil {
-            if p != nil {
-                if q != nil {
-                    if (p?.val)! > (q?.val)! {
-                        let node = ListNode.init((q?.val)!)
-                        res.next = node
-                        q = q?.next
-                    } else {
-                        let node = ListNode.init((p?.val)!)
-                        res.next = node
-                        p = p?.next
-                    }
-                } else {
-                    let node = ListNode.init((p?.val)!)
-                    res.next = node
-                    p = p?.next
-                }
-            } else {
-                if q != nil {
-                    let node = ListNode.init((q?.val)!)
-                    res.next = node
-                    q = q?.next
-                } else {
-                    break
-                }
-            }
-            res = res.next!
+        if (l1?.val)! <= (l2?.val)! {
+            l1?.next = Solution.mergeTwoLists(l1?.next, l2)
+            return l1
+        } else {
+            l2?.next = Solution.mergeTwoLists(l1, l2?.next)
+            return l2
         }
-        return result.next?.next
     }
     
 }
