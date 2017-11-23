@@ -84,6 +84,11 @@
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
+		<key>24-SwapNodesinPairs.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
 		<key>3-LongestSubstringWithoutRepeatingCharacters.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -223,6 +228,11 @@
 			<true/>
 		</dict>
 		<key>C0D27D2A1F98F8B50025F343</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0D7BCFA1FC6C1C900CD6B85</key>
 		<dict>
 			<key>primary</key>
 			<true/>
