@@ -89,6 +89,11 @@
 			<key>orderHint</key>
 			<integer>23</integer>
 		</dict>
+		<key>25-ReverseNodesink-Group.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
 		<key>3-LongestSubstringWithoutRepeatingCharacters.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -233,6 +238,11 @@
 			<true/>
 		</dict>
 		<key>C0D7BCFA1FC6C1C900CD6B85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0D7BD051FC6C85900CD6B85</key>
 		<dict>
 			<key>primary</key>
 			<true/>
