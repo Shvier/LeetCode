@@ -94,6 +94,11 @@
 			<key>orderHint</key>
 			<integer>24</integer>
 		</dict>
+		<key>26-RemoveDuplicatesfromSortedArray.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
 		<key>3-LongestSubstringWithoutRepeatingCharacters.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -188,6 +193,11 @@
 			<true/>
 		</dict>
 		<key>C06F7A611FADBD620043EDEA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C07D15DC1FC9653B00AD1B86</key>
 		<dict>
 			<key>primary</key>
 			<true/>

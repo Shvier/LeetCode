@@ -18,6 +18,7 @@
 		C065BB921FB2F80100EAF925 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065BB911FB2F80100EAF925 /* main.swift */; };
 		C06827371FA1DB9C004CDD41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06827361FA1DB9C004CDD41 /* main.swift */; };
 		C06F7A651FADBD620043EDEA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06F7A641FADBD620043EDEA /* main.swift */; };
+		C07D15E01FC9653B00AD1B86 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D15DF1FC9653B00AD1B86 /* main.swift */; };
 		C07FA65C1FC2D40100FB5514 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07FA65B1FC2D40100FB5514 /* main.swift */; };
 		C081B7161FBDD881003730B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C081B7151FBDD881003730B9 /* main.swift */; };
 		C09F88A01FAB619C0012AFC3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09F889F1FAB619C0012AFC3 /* main.swift */; };
@@ -135,6 +136,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		C06F7A601FADBD620043EDEA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C07D15DB1FC9653B00AD1B86 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -295,6 +305,8 @@
 		C06827361FA1DB9C004CDD41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C06F7A621FADBD620043EDEA /* 16-3SumClosest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "16-3SumClosest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06F7A641FADBD620043EDEA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C07D15DD1FC9653B00AD1B86 /* 26-RemoveDuplicatesfromSortedArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "26-RemoveDuplicatesfromSortedArray"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07D15DF1FC9653B00AD1B86 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C07FA6591FC2D40100FB5514 /* 22-GenerateParentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "22-GenerateParentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07FA65B1FC2D40100FB5514 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C081B7131FBDD881003730B9 /* 20-ValidParentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "20-ValidParentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -404,6 +416,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C06F7A5F1FADBD620043EDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07D15DA1FC9653B00AD1B86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -547,6 +566,7 @@
 				C0DA0E191FC5697E00AB0275 /* 23-MergeKSortedLists */,
 				C0D7BCFC1FC6C1C900CD6B85 /* 24-SwapNodesinPairs */,
 				C0D7BD071FC6C85900CD6B85 /* 25-ReverseNodesink-Group */,
+				C07D15DE1FC9653B00AD1B86 /* 26-RemoveDuplicatesfromSortedArray */,
 				C034E9731F91BDFF00D19AE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -580,6 +600,7 @@
 				C0DA0E181FC5697E00AB0275 /* 23-MergeKSortedLists */,
 				C0D7BCFB1FC6C1C900CD6B85 /* 24-SwapNodesinPairs */,
 				C0D7BD061FC6C85900CD6B85 /* 25-ReverseNodesink-Group */,
+				C07D15DD1FC9653B00AD1B86 /* 26-RemoveDuplicatesfromSortedArray */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -662,6 +683,14 @@
 				C06F7A641FADBD620043EDEA /* main.swift */,
 			);
 			path = "16-3SumClosest";
+			sourceTree = "<group>";
+		};
+		C07D15DE1FC9653B00AD1B86 /* 26-RemoveDuplicatesfromSortedArray */ = {
+			isa = PBXGroup;
+			children = (
+				C07D15DF1FC9653B00AD1B86 /* main.swift */,
+			);
+			path = "26-RemoveDuplicatesfromSortedArray";
 			sourceTree = "<group>";
 		};
 		C07FA65A1FC2D40100FB5514 /* 22-GenerateParentheses */ = {
@@ -983,6 +1012,23 @@
 			productReference = C06F7A621FADBD620043EDEA /* 16-3SumClosest */;
 			productType = "com.apple.product-type.tool";
 		};
+		C07D15DC1FC9653B00AD1B86 /* 26-RemoveDuplicatesfromSortedArray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07D15E31FC9653B00AD1B86 /* Build configuration list for PBXNativeTarget "26-RemoveDuplicatesfromSortedArray" */;
+			buildPhases = (
+				C07D15D91FC9653B00AD1B86 /* Sources */,
+				C07D15DA1FC9653B00AD1B86 /* Frameworks */,
+				C07D15DB1FC9653B00AD1B86 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "26-RemoveDuplicatesfromSortedArray";
+			productName = "26-RemoveDuplicatesfromSortedArray";
+			productReference = C07D15DD1FC9653B00AD1B86 /* 26-RemoveDuplicatesfromSortedArray */;
+			productType = "com.apple.product-type.tool";
+		};
 		C07FA6581FC2D40100FB5514 /* 22-GenerateParentheses */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C07FA65F1FC2D40100FB5514 /* Build configuration list for PBXNativeTarget "22-GenerateParentheses" */;
@@ -1291,6 +1337,11 @@
 						DevelopmentTeam = PGNG7584J8;
 						ProvisioningStyle = Automatic;
 					};
+					C07D15DC1FC9653B00AD1B86 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PGNG7584J8;
+						ProvisioningStyle = Automatic;
+					};
 					C07FA6581FC2D40100FB5514 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = PGNG7584J8;
@@ -1401,6 +1452,7 @@
 				C0DA0E171FC5697E00AB0275 /* 23-MergeKSortedLists */,
 				C0D7BCFA1FC6C1C900CD6B85 /* 24-SwapNodesinPairs */,
 				C0D7BD051FC6C85900CD6B85 /* 25-ReverseNodesink-Group */,
+				C07D15DC1FC9653B00AD1B86 /* 26-RemoveDuplicatesfromSortedArray */,
 			);
 		};
 /* End PBXProject section */
@@ -1498,6 +1550,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C06F7A651FADBD620043EDEA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07D15D91FC9653B00AD1B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07D15E01FC9653B00AD1B86 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1922,6 +1982,24 @@
 			};
 			name = Release;
 		};
+		C07D15E11FC9653B00AD1B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C07D15E21FC9653B00AD1B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		C07FA65D1FC2D40100FB5514 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2294,6 +2372,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		C07D15E31FC9653B00AD1B86 /* Build configuration list for PBXNativeTarget "26-RemoveDuplicatesfromSortedArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07D15E11FC9653B00AD1B86 /* Debug */,
+				C07D15E21FC9653B00AD1B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C07FA65F1FC2D40100FB5514 /* Build configuration list for PBXNativeTarget "22-GenerateParentheses" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2364,6 +2450,7 @@
 				C0D7BD001FC6C1C900CD6B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0D7BD0A1FC6C85900CD6B85 /* Build configuration list for PBXNativeTarget "25-ReverseNodesink-Group" */ = {
 			isa = XCConfigurationList;
@@ -2372,6 +2459,7 @@
 				C0D7BD0C1FC6C85900CD6B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0DA0E1C1FC5697E00AB0275 /* Build configuration list for PBXNativeTarget "23-MergeKSortedLists" */ = {
 			isa = XCConfigurationList;
