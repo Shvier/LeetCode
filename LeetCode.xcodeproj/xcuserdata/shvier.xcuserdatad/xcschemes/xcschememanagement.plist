@@ -99,6 +99,11 @@
 			<key>orderHint</key>
 			<integer>25</integer>
 		</dict>
+		<key>27-RemoveElement.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
 		<key>3-LongestSubstringWithoutRepeatingCharacters.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -208,6 +213,11 @@
 			<true/>
 		</dict>
 		<key>C081B7121FBDD881003730B9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C09273161FCA63B100498463</key>
 		<dict>
 			<key>primary</key>
 			<true/>
