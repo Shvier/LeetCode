@@ -109,6 +109,11 @@
 			<key>orderHint</key>
 			<integer>27</integer>
 		</dict>
+		<key>29-DivideTwoIntegers.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
 		<key>3-LongestSubstringWithoutRepeatingCharacters.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -193,6 +198,11 @@
 			<true/>
 		</dict>
 		<key>C05402231FCBF79100F70BF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C054022E1FCBFDE700F70BF1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
