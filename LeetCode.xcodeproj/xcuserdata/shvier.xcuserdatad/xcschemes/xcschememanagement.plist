@@ -104,6 +104,11 @@
 			<key>orderHint</key>
 			<integer>26</integer>
 		</dict>
+		<key>28-ImplementstrStr().xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
 		<key>3-LongestSubstringWithoutRepeatingCharacters.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -183,6 +188,11 @@
 			<true/>
 		</dict>
 		<key>C05254961FA32DBB00B85DE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C05402231FCBF79100F70BF1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
