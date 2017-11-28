@@ -119,6 +119,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>30-SubstringwithConcatenationofAllWords.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
 		<key>4-MedianofTwoSortedArrays.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -223,6 +228,11 @@
 			<true/>
 		</dict>
 		<key>C07D15DC1FC9653B00AD1B86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C07D63531FCD4B9900AB92D5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
