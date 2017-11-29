@@ -124,6 +124,11 @@
 			<key>orderHint</key>
 			<integer>29</integer>
 		</dict>
+		<key>35-SearchInsertPosition.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
 		<key>4-MedianofTwoSortedArrays.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -157,6 +162,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>C00A7C9F1FCEC9D9002152E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C02A41251FB5FCFA003EBC18</key>
 		<dict>
 			<key>primary</key>

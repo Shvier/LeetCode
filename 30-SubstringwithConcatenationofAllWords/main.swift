@@ -10,6 +10,7 @@ import Foundation
 
 class Solution {
     
+    // Error
     func findSubstring(_ s: String, _ words: [String]) -> [Int] {
         let wordLength = (words.first?.lengthOfBytes(using: .utf8))!
         let length = s.lengthOfBytes(using: .utf8)
