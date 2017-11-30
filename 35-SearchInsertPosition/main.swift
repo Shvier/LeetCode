@@ -18,14 +18,13 @@ class Solution {
         var offset = nums[0] - target
         for i in 0..<nums.count {
             let current = nums[i] - target
-            if current >= 0 {
-                if offset >= current {
-                    offset = current
+            if fabs(Double(offset)) >= fabs(Double(current)) {
+                offset = current
+                if target > nums[i] {
+                    index = i + 1
+                } else {
                     index = i
                 }
-            } else {
-                index = i-1
-                break
             }
         }
         return index
