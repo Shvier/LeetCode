@@ -23,26 +23,32 @@ class Solution {
                 return
             }
         }
+        var breakIndex = Int.min
+        var startIndex = 0
         for i in (0..<nums.count).reversed() {
             for j in (0..<i).reversed() {
                 if nums[i] <= nums[j] {
                     continue
                 } else {
-                    swap(&nums, start: i, end: j)
-                    let start = j + 1
-                    let end = nums.count-1
-                    if start > end {
-                        return
-                    }
-                    for k in start..<end {
-                        if nums[k] > nums[k+1] {
-                            swap(&nums, start: k, end: k+1)
-                        }
-                    }
-                    return
+                    startIndex = i
+                    breakIndex = breakIndex < j ? j : breakIndex
                 }
             }
         }
+        swap(&nums, start: startIndex, end: breakIndex)
+        let start = breakIndex + 1
+        let end = nums.count-1
+        if start > end {
+            return
+        }
+        for _ in start..<end {
+            for l in start..<end {
+                if nums[l] > nums[l+1] {
+                    swap(&nums, start: l, end: l+1)
+                }
+            }
+        }
+        return
     }
     
     func swap(_ nums: inout [Int], start: Int, end: Int) {
@@ -55,5 +61,5 @@ class Solution {
 }
 
 let solution = Solution()
-var array = [1, 5, 1]
+var array = [1, 2, 3]
 solution.nextPermutation(&array)
