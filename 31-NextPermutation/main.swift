@@ -30,8 +30,10 @@ class Solution {
                 if nums[i] <= nums[j] {
                     continue
                 } else {
-                    startIndex = i
-                    breakIndex = breakIndex < j ? j : breakIndex
+                    if breakIndex < j {
+                        breakIndex = j
+                        startIndex = i
+                    }
                 }
             }
         }
