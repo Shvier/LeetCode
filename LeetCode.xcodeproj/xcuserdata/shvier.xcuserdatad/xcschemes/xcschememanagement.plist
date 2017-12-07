@@ -129,6 +129,11 @@
 			<key>orderHint</key>
 			<integer>30</integer>
 		</dict>
+		<key>32-LongestValidParentheses.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>32</integer>
+		</dict>
 		<key>35-SearchInsertPosition.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -203,6 +208,11 @@
 			<true/>
 		</dict>
 		<key>C034E9AB1F91E4FD00D19AE6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C038E5941FD83FA800F2FDDC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
