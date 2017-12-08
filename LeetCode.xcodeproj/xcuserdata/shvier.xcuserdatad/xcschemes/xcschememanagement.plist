@@ -132,12 +132,17 @@
 		<key>32-LongestValidParentheses.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>31</integer>
+		</dict>
+		<key>33-SearchinRotatedSortedArray.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>32</integer>
 		</dict>
 		<key>35-SearchInsertPosition.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>31</integer>
+			<integer>33</integer>
 		</dict>
 		<key>4-MedianofTwoSortedArrays.xcscheme</key>
 		<dict>
@@ -173,6 +178,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>C00A7C9F1FCEC9D9002152E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C00C707B1FDADA8F002328C2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
