@@ -139,10 +139,15 @@
 			<key>orderHint</key>
 			<integer>32</integer>
 		</dict>
-		<key>35-SearchInsertPosition.xcscheme</key>
+		<key>34-SearchforaRange.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>33</integer>
+		</dict>
+		<key>35-SearchInsertPosition.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>34</integer>
 		</dict>
 		<key>4-MedianofTwoSortedArrays.xcscheme</key>
 		<dict>
@@ -183,6 +188,11 @@
 			<true/>
 		</dict>
 		<key>C00C707B1FDADA8F002328C2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C00C70861FDAE897002328C2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
