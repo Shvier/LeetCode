@@ -149,6 +149,11 @@
 			<key>orderHint</key>
 			<integer>34</integer>
 		</dict>
+		<key>36-ValidSudoku.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>35</integer>
+		</dict>
 		<key>4-MedianofTwoSortedArrays.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -263,6 +268,11 @@
 			<true/>
 		</dict>
 		<key>C06827331FA1DB9C004CDD41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C06C743A1FDBE38A0047DC69</key>
 		<dict>
 			<key>primary</key>
 			<true/>
