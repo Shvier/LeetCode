@@ -11,20 +11,19 @@ import Foundation
 class Solution {
     
     func isValidSudoku(_ board: [[Character]]) -> Bool {
-        var isValid = true
-        for characters in board {
-            isValid = isValid && checkSubBoard(board: characters)
-        }
-        return isValid
-    }
-    
-    func checkSubBoard(board: [Character]) -> Bool {
-        var checkArray = Array<Character>()
-        for character in board {
-            if !checkArray.contains(character) {
-                checkArray.append(character)
-            } else {
-                return false
+        var checkRow = Array(repeating: Array(repeatElement(false, count: 9)), count: 9)
+        var checkCol = Array(repeating: Array(repeatElement(false, count: 9)), count: 9)
+        var checkSub = Array(repeating: Array(repeatElement(false, count: 9)), count: 9)
+        for i in 0..<board.count {
+            for j in 0..<board[i].count {
+                if board[i][j] != "." {
+                    let num = Int(String(board[i][j]) - "0") - 1
+                    let k = i/3*3+j/3
+                    if checkRow[i][num] || checkCol[j][num] || checkSub[k][num] {
+                        return false
+                    }
+                    checkRow[i][num] = checkCol[j][num] = checkSub[k][num] = true
+                }
             }
         }
         return true
