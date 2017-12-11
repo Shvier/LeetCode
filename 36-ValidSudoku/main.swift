@@ -17,12 +17,14 @@ class Solution {
         for i in 0..<board.count {
             for j in 0..<board[i].count {
                 if board[i][j] != "." {
-                    let num = Int(String(board[i][j]) - "0") - 1
+                    let num = Int.init(String(board[i][j]))! - 1
                     let k = i/3*3+j/3
                     if checkRow[i][num] || checkCol[j][num] || checkSub[k][num] {
                         return false
                     }
-                    checkRow[i][num] = checkCol[j][num] = checkSub[k][num] = true
+                    checkRow[i][num] = true
+                    checkCol[j][num] = true
+                    checkSub[k][num] = true
                 }
             }
         }
