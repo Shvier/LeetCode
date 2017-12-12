@@ -159,6 +159,11 @@
 			<key>orderHint</key>
 			<integer>36</integer>
 		</dict>
+		<key>38-CountandSay.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
+		</dict>
 		<key>4-MedianofTwoSortedArrays.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -323,6 +328,11 @@
 			<true/>
 		</dict>
 		<key>C09F889C1FAB619C0012AFC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0A18BE31FE01FC200648A3F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
