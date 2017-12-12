@@ -154,6 +154,11 @@
 			<key>orderHint</key>
 			<integer>35</integer>
 		</dict>
+		<key>37-SudokuSolver.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>36</integer>
+		</dict>
 		<key>4-MedianofTwoSortedArrays.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -258,6 +263,11 @@
 			<true/>
 		</dict>
 		<key>C054022E1FCBFDE700F70BF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C05DBFED1FDEE2FD009423DB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
