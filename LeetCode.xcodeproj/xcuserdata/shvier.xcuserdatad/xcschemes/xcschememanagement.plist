@@ -164,6 +164,11 @@
 			<key>orderHint</key>
 			<integer>37</integer>
 		</dict>
+		<key>39-CombinationSum.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>38</integer>
+		</dict>
 		<key>4-MedianofTwoSortedArrays.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -323,6 +328,11 @@
 			<true/>
 		</dict>
 		<key>C09273161FCA63B100498463</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C099392B1FE163B7001796B7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
