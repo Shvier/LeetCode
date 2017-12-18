@@ -20,21 +20,15 @@ class Solution {
     
     func backtrack(_ result: inout [[Int]], _ candidates: inout [Int], current: [Int], lastUse: Int, restTarget: Int) {
         if restTarget == 0 {
-            var equals: Bool = false
-            for array in result {
-                if compare(array, current) {
-                    equals = true
-                    break
-                }
-            }
-            if !equals {
-                result.append(current)
-            }
+            result.append(current)
         }
         var newCurrent = current
         for i in lastUse..<candidates.count {
             if candidates[i] > restTarget {
                 break
+            }
+            if i > lastUse && candidates[i] == candidates[i-1] {
+                continue
             }
             newCurrent.append(candidates[i])
             backtrack(&result, &candidates, current: newCurrent, lastUse: i+1, restTarget: restTarget-candidates[i])
@@ -42,18 +36,7 @@ class Solution {
         }
     }
     
-    func compare(_ array1: [Int], _ array2: [Int]) -> Bool {
-        if array1.count != array2.count {
-            return false
-        }
-        var equals: Bool = false
-        for index in 0..<array1.count {
-            equals = (array1[index] == array2[index])
-        }
-        return equals
-    }
-    
 }
 
 let solution = Solution()
-solution.combinationSum2([10, 1, 2, 7, 6, 1, 5], 8)
+solution.combinationSum2([4, 1, 1, 4, 4, 4, 4, 2, 3, 5], 10)
