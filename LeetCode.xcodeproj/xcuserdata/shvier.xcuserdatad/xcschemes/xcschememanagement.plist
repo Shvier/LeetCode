@@ -179,6 +179,11 @@
 			<key>orderHint</key>
 			<integer>39</integer>
 		</dict>
+		<key>41-FirstMissingPositive.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>40</integer>
+		</dict>
 		<key>5-LongestPalindromicSubstring.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -207,6 +212,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>C000626F1FE964B100F50061</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C00A7C9F1FCEC9D9002152E7</key>
 		<dict>
 			<key>primary</key>
