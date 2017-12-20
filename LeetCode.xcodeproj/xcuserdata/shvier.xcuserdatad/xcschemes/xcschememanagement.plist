@@ -184,6 +184,11 @@
 			<key>orderHint</key>
 			<integer>40</integer>
 		</dict>
+		<key>42-TrappingRainWater.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>41</integer>
+		</dict>
 		<key>5-LongestPalindromicSubstring.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -273,6 +278,11 @@
 			<true/>
 		</dict>
 		<key>C03D42421FC1CA2E00AEB101</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C051A5B31FEAB50E00649D9D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
