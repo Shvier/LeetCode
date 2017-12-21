@@ -189,6 +189,11 @@
 			<key>orderHint</key>
 			<integer>41</integer>
 		</dict>
+		<key>43-MultiplyStrings.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>42</integer>
+		</dict>
 		<key>5-LongestPalindromicSubstring.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -283,6 +288,11 @@
 			<true/>
 		</dict>
 		<key>C051A5B31FEAB50E00649D9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C051A5BE1FEABA9A00649D9D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
