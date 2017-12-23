@@ -25,6 +25,7 @@
 		C05402271FCBF79100F70BF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05402261FCBF79100F70BF1 /* main.swift */; };
 		C05402321FCBFDE700F70BF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05402311FCBFDE700F70BF1 /* main.swift */; };
 		C05DBFF11FDEE2FD009423DB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05DBFF01FDEE2FD009423DB /* main.swift */; };
+		C065AFFF1FEE3FB800EA5330 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065AFFE1FEE3FB800EA5330 /* main.swift */; };
 		C065BB921FB2F80100EAF925 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C065BB911FB2F80100EAF925 /* main.swift */; };
 		C06827371FA1DB9C004CDD41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06827361FA1DB9C004CDD41 /* main.swift */; };
 		C06C743E1FDBE38A0047DC69 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06C743D1FDBE38A0047DC69 /* main.swift */; };
@@ -216,6 +217,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		C05DBFEC1FDEE2FD009423DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C065AFFA1FEE3FB800EA5330 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -489,6 +499,8 @@
 		C05402311FCBFDE700F70BF1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C05DBFEE1FDEE2FD009423DB /* 37-SudokuSolver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "37-SudokuSolver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05DBFF01FDEE2FD009423DB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C065AFFC1FEE3FB800EA5330 /* 44-WildcardMatching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "44-WildcardMatching"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C065AFFE1FEE3FB800EA5330 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C065BB8F1FB2F80100EAF925 /* 17-LetterCombinationsofaPhoneNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17-LetterCombinationsofaPhoneNumber"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C065BB911FB2F80100EAF925 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C06827341FA1DB9C004CDD41 /* 11-ContainerWithMostWater */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-ContainerWithMostWater"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -669,6 +681,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C05DBFEB1FDEE2FD009423DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C065AFF91FEE3FB800EA5330 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -939,6 +958,7 @@
 				C00062711FE964B100F50061 /* 41-FirstMissingPositive */,
 				C051A5B51FEAB50E00649D9D /* 42-TrappingRainWater */,
 				C051A5C01FEABA9A00649D9D /* 43-MultiplyStrings */,
+				C065AFFD1FEE3FB800EA5330 /* 44-WildcardMatching */,
 				C034E9731F91BDFF00D19AE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -990,6 +1010,7 @@
 				C00062701FE964B100F50061 /* 41-FirstMissingPositive */,
 				C051A5B41FEAB50E00649D9D /* 42-TrappingRainWater */,
 				C051A5BF1FEABA9A00649D9D /* 43-MultiplyStrings */,
+				C065AFFC1FEE3FB800EA5330 /* 44-WildcardMatching */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1096,6 +1117,14 @@
 				C05DBFF01FDEE2FD009423DB /* main.swift */,
 			);
 			path = "37-SudokuSolver";
+			sourceTree = "<group>";
+		};
+		C065AFFD1FEE3FB800EA5330 /* 44-WildcardMatching */ = {
+			isa = PBXGroup;
+			children = (
+				C065AFFE1FEE3FB800EA5330 /* main.swift */,
+			);
+			path = "44-WildcardMatching";
 			sourceTree = "<group>";
 		};
 		C065BB901FB2F80100EAF925 /* 17-LetterCombinationsofaPhoneNumber */ = {
@@ -1622,6 +1651,23 @@
 			name = "37-SudokuSolver";
 			productName = "37-SudokuSolver";
 			productReference = C05DBFEE1FDEE2FD009423DB /* 37-SudokuSolver */;
+			productType = "com.apple.product-type.tool";
+		};
+		C065AFFB1FEE3FB800EA5330 /* 44-WildcardMatching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C065B0021FEE3FB800EA5330 /* Build configuration list for PBXNativeTarget "44-WildcardMatching" */;
+			buildPhases = (
+				C065AFF81FEE3FB800EA5330 /* Sources */,
+				C065AFF91FEE3FB800EA5330 /* Frameworks */,
+				C065AFFA1FEE3FB800EA5330 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "44-WildcardMatching";
+			productName = "44-WildcardMatching";
+			productReference = C065AFFC1FEE3FB800EA5330 /* 44-WildcardMatching */;
 			productType = "com.apple.product-type.tool";
 		};
 		C065BB8E1FB2F80100EAF925 /* 17-LetterCombinationsofaPhoneNumber */ = {
@@ -2154,6 +2200,11 @@
 						DevelopmentTeam = PGNG7584J8;
 						ProvisioningStyle = Automatic;
 					};
+					C065AFFB1FEE3FB800EA5330 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PGNG7584J8;
+						ProvisioningStyle = Automatic;
+					};
 					C065BB8E1FB2F80100EAF925 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = PGNG7584J8;
@@ -2337,6 +2388,7 @@
 				C000626F1FE964B100F50061 /* 41-FirstMissingPositive */,
 				C051A5B31FEAB50E00649D9D /* 42-TrappingRainWater */,
 				C051A5BE1FEABA9A00649D9D /* 43-MultiplyStrings */,
+				C065AFFB1FEE3FB800EA5330 /* 44-WildcardMatching */,
 			);
 		};
 /* End PBXProject section */
@@ -2490,6 +2542,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C05DBFF11FDEE2FD009423DB /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C065AFF81FEE3FB800EA5330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C065AFFF1FEE3FB800EA5330 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3128,6 +3188,24 @@
 			};
 			name = Release;
 		};
+		C065B0001FEE3FB800EA5330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C065B0011FEE3FB800EA5330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		C065BB931FB2F80100EAF925 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3714,6 +3792,7 @@
 				C051A5B91FEAB50E00649D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C051A5C31FEABA9A00649D9D /* Build configuration list for PBXNativeTarget "43-MultiplyStrings" */ = {
 			isa = XCConfigurationList;
@@ -3722,6 +3801,7 @@
 				C051A5C51FEABA9A00649D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C052549D1FA32DBB00B85DE2 /* Build configuration list for PBXNativeTarget "12-IntegertoRoman" */ = {
 			isa = XCConfigurationList;
@@ -3758,6 +3838,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C065B0021FEE3FB800EA5330 /* Build configuration list for PBXNativeTarget "44-WildcardMatching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C065B0001FEE3FB800EA5330 /* Debug */,
+				C065B0011FEE3FB800EA5330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		C065BB951FB2F80100EAF925 /* Build configuration list for PBXNativeTarget "17-LetterCombinationsofaPhoneNumber" */ = {
 			isa = XCConfigurationList;

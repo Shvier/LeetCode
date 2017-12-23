@@ -194,6 +194,11 @@
 			<key>orderHint</key>
 			<integer>42</integer>
 		</dict>
+		<key>44-WildcardMatching.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>43</integer>
+		</dict>
 		<key>5-LongestPalindromicSubstring.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -313,6 +318,11 @@
 			<true/>
 		</dict>
 		<key>C05DBFED1FDEE2FD009423DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C065AFFB1FEE3FB800EA5330</key>
 		<dict>
 			<key>primary</key>
 			<true/>
