@@ -40,10 +40,14 @@ class Solution {
                     if sCharacters[i - 1] == pCharacters[j - 1] || pCharacters[j - 1] == "?" {
                         dp[i][j] = dp[i - 1][j - 1]
                     } else if pCharacters[j - 1] == "*" {
-                        if sCharacters[i - 1] == pCharacters[j - 2] || pCharacters[j - 2] == "?" {
-                            dp[i][j] = dp[i][j - 2] || dp[i - 1][j]
+                        if j == 1 {
+                            dp[i][j] = true
                         } else {
-                            dp[i][j] = dp[i][j - 2]
+                            if sCharacters[i - 1] == pCharacters[j - 2] || pCharacters[j - 2] == "?" {
+                                dp[i][j] = dp[i][j - 2] || dp[i - 1][j]
+                            } else {
+                                dp[i][j] = dp[i][j - 2]
+                            }
                         }
                     } else {
                         dp[i][j] = false
@@ -56,3 +60,5 @@ class Solution {
     
 }
 
+let solution = Solution()
+solution.isMatch("zacabz", "*a?b*")
