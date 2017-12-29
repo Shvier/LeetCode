@@ -199,6 +199,11 @@
 			<key>orderHint</key>
 			<integer>43</integer>
 		</dict>
+		<key>45-JumpGameII.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>44</integer>
+		</dict>
 		<key>5-LongestPalindromicSubstring.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -468,6 +473,11 @@
 			<true/>
 		</dict>
 		<key>C0E6D0311F91FF80006905FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0EE9F1E1FF63FE50052308C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

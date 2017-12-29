@@ -51,6 +51,7 @@
 		C0E22C2E1F9B41100017A87C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E22C2D1F9B41100017A87C /* main.swift */; };
 		C0E4CCBF1F97A66B00B206A2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4CCBE1F97A66B00B206A2 /* main.swift */; };
 		C0E6D0351F91FF81006905FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E6D0341F91FF81006905FD /* main.swift */; };
+		C0EE9F221FF63FE50052308C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE9F211FF63FE50052308C /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -459,6 +460,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		C0EE9F1D1FF63FE50052308C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -551,6 +561,8 @@
 		C0E4CCBE1F97A66B00B206A2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C0E6D0321F91FF80006905FD /* 6-ZigZagConversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6-ZigZagConversion"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E6D0341F91FF81006905FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C0EE9F1F1FF63FE50052308C /* 45-JumpGameII */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "45-JumpGameII"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EE9F211FF63FE50052308C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -869,6 +881,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C0EE9F1C1FF63FE50052308C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -959,6 +978,7 @@
 				C051A5B51FEAB50E00649D9D /* 42-TrappingRainWater */,
 				C051A5C01FEABA9A00649D9D /* 43-MultiplyStrings */,
 				C065AFFD1FEE3FB800EA5330 /* 44-WildcardMatching */,
+				C0EE9F201FF63FE50052308C /* 45-JumpGameII */,
 				C034E9731F91BDFF00D19AE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1011,6 +1031,7 @@
 				C051A5B41FEAB50E00649D9D /* 42-TrappingRainWater */,
 				C051A5BF1FEABA9A00649D9D /* 43-MultiplyStrings */,
 				C065AFFC1FEE3FB800EA5330 /* 44-WildcardMatching */,
+				C0EE9F1F1FF63FE50052308C /* 45-JumpGameII */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1325,6 +1346,14 @@
 				C0E6D0341F91FF81006905FD /* main.swift */,
 			);
 			path = "6-ZigZagConversion";
+			sourceTree = "<group>";
+		};
+		C0EE9F201FF63FE50052308C /* 45-JumpGameII */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE9F211FF63FE50052308C /* main.swift */,
+			);
+			path = "45-JumpGameII";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2095,6 +2124,23 @@
 			productReference = C0E6D0321F91FF80006905FD /* 6-ZigZagConversion */;
 			productType = "com.apple.product-type.tool";
 		};
+		C0EE9F1E1FF63FE50052308C /* 45-JumpGameII */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0EE9F251FF63FE50052308C /* Build configuration list for PBXNativeTarget "45-JumpGameII" */;
+			buildPhases = (
+				C0EE9F1B1FF63FE50052308C /* Sources */,
+				C0EE9F1C1FF63FE50052308C /* Frameworks */,
+				C0EE9F1D1FF63FE50052308C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "45-JumpGameII";
+			productName = "45-JumpGameII";
+			productReference = C0EE9F1F1FF63FE50052308C /* 45-JumpGameII */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2330,6 +2376,11 @@
 						DevelopmentTeam = PGNG7584J8;
 						ProvisioningStyle = Automatic;
 					};
+					C0EE9F1E1FF63FE50052308C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PGNG7584J8;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = C034E96D1F91BDFF00D19AE6 /* Build configuration list for PBXProject "LeetCode" */;
@@ -2389,6 +2440,7 @@
 				C051A5B31FEAB50E00649D9D /* 42-TrappingRainWater */,
 				C051A5BE1FEABA9A00649D9D /* 43-MultiplyStrings */,
 				C065AFFB1FEE3FB800EA5330 /* 44-WildcardMatching */,
+				C0EE9F1E1FF63FE50052308C /* 45-JumpGameII */,
 			);
 		};
 /* End PBXProject section */
@@ -2750,6 +2802,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0E6D0351F91FF81006905FD /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EE9F1B1FF63FE50052308C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EE9F221FF63FE50052308C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3656,6 +3716,24 @@
 			};
 			name = Release;
 		};
+		C0EE9F231FF63FE50052308C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C0EE9F241FF63FE50052308C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3846,6 +3924,7 @@
 				C065B0011FEE3FB800EA5330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C065BB951FB2F80100EAF925 /* Build configuration list for PBXNativeTarget "17-LetterCombinationsofaPhoneNumber" */ = {
 			isa = XCConfigurationList;
@@ -4071,6 +4150,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C0EE9F251FF63FE50052308C /* Build configuration list for PBXNativeTarget "45-JumpGameII" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EE9F231FF63FE50052308C /* Debug */,
+				C0EE9F241FF63FE50052308C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
