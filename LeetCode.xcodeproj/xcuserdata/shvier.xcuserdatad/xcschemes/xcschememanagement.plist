@@ -209,6 +209,11 @@
 			<key>orderHint</key>
 			<integer>45</integer>
 		</dict>
+		<key>47-PermutationsII.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>46</integer>
+		</dict>
 		<key>5-LongestPalindromicSubstring.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -383,6 +388,11 @@
 			<true/>
 		</dict>
 		<key>C081B7121FBDD881003730B9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C083C3DA1FF9E40A00A21981</key>
 		<dict>
 			<key>primary</key>
 			<true/>
