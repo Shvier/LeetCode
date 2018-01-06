@@ -25,7 +25,7 @@ class Solution {
         }
         for index in 0..<count {
             if index > 0 {
-                if nums[index] == nums[index-1] && temp.count == 0 {
+                if nums[index] == nums[index-1] && !seen[index-1] {
                     continue
                 }
             }
