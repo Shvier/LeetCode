@@ -219,6 +219,11 @@
 			<key>orderHint</key>
 			<integer>47</integer>
 		</dict>
+		<key>49-GroupAnagrams.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>48</integer>
+		</dict>
 		<key>5-LongestPalindromicSubstring.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -333,6 +338,11 @@
 			<true/>
 		</dict>
 		<key>C054022E1FCBFDE700F70BF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C05B1E4220038EC900F0A4E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
