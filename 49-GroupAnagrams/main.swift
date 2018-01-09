@@ -14,13 +14,13 @@ class Solution {
         var group = Array<Array<String>>()
         var keyword = Dictionary<String, Array<String>>()
         for string in strs {
-            let strings = string.components(separatedBy: "")
-            let key = strings.sorted().joined(separator: "")
-            var array = keyword[key]
-            if array == nil {
-                array = Array<String>()
+            let characters = [Character](string.characters)
+            let key = String(characters.sorted())
+            if keyword[key] == nil {
+                keyword.updateValue([string], forKey: key)
+            } else {
+                keyword[key]?.append(string)
             }
-            array?.append(string)
         }
         for key in keyword.keys {
             group.append(keyword[key]!)
