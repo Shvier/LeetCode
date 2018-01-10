@@ -229,6 +229,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>50-Pow(x, n).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>49</integer>
+		</dict>
 		<key>6-ZigZagConversion.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -458,6 +463,11 @@
 			<true/>
 		</dict>
 		<key>C0B89BC11FBB40A4007CCB45</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0BF1F462004F9CC006F1CAF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
