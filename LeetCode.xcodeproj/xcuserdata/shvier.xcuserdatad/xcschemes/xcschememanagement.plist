@@ -234,6 +234,11 @@
 			<key>orderHint</key>
 			<integer>49</integer>
 		</dict>
+		<key>51-N-Queens.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>50</integer>
+		</dict>
 		<key>6-ZigZagConversion.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -418,6 +423,11 @@
 			<true/>
 		</dict>
 		<key>C09273161FCA63B100498463</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C097DCEF200667AD005355CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
