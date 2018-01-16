@@ -244,6 +244,11 @@
 			<key>orderHint</key>
 			<integer>51</integer>
 		</dict>
+		<key>53-MaximumSubarray.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>52</integer>
+		</dict>
 		<key>6-ZigZagConversion.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -363,6 +368,11 @@
 			<true/>
 		</dict>
 		<key>C05DBFED1FDEE2FD009423DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0602D4F200E3BA000E8B363</key>
 		<dict>
 			<key>primary</key>
 			<true/>
