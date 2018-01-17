@@ -249,6 +249,11 @@
 			<key>orderHint</key>
 			<integer>52</integer>
 		</dict>
+		<key>54-SpiralMatrix.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>53</integer>
+		</dict>
 		<key>6-ZigZagConversion.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -558,6 +563,11 @@
 			<true/>
 		</dict>
 		<key>C0EE9F1E1FF63FE50052308C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0FD4C50200F8671005823C3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
