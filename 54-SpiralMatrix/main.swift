@@ -12,18 +12,45 @@ class Solution {
     
     func spiralOrder(_ matrix: [[Int]]) -> [Int] {
         var ans = [Int]()
-        placeNumber(&ans, matrix, 0, 0, matrix.count, (matrix.first?.count)!)
-        return ans
-    }
-    
-    func placeNumber(_ ans: inout [Int], _ matrix: [[Int]], _ x: Int, _ y: Int, _ m: Int, _ n: Int) {
-        if x < 0 {
-
+        let m = matrix.count
+        let n = matrix.first?.count
+        if m < 1 || (n != nil && n! < 1) {
+            return ans
         }
-        ans.append(matrix[x][y])
-        if y == m-1-x {
+        var rowBegin = 0
+        var rowEnd = m-1
+        var colBegin = 0
+        var colEnd = n!-1
+        while rowBegin <= rowEnd && colBegin <= colEnd {
+            if colBegin <= colEnd {
+                for y in colBegin...colEnd {
+                    ans.append(matrix[rowBegin][y])
+                }
+            }
+            rowBegin += 1
             
+            if rowBegin <= rowEnd {
+                for x in rowBegin...rowEnd {
+                    ans.append(matrix[x][colEnd])
+                }
+            }
+            colEnd -= 1
+            
+            if rowBegin <= rowEnd && colBegin <= colEnd {
+                for y in (colBegin...colEnd).reversed() {
+                    ans.append(matrix[rowEnd][y])
+                }
+            }
+            rowEnd -= 1
+            
+            if colBegin <= colEnd && rowBegin <= rowEnd {
+                for x in (rowBegin...rowEnd).reversed() {
+                    ans.append(matrix[x][colBegin])
+                }
+            }
+            colBegin += 1
         }
+        return ans
     }
     
 }
