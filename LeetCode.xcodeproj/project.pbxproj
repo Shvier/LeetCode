@@ -60,6 +60,7 @@
 		C0E4CCBF1F97A66B00B206A2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4CCBE1F97A66B00B206A2 /* main.swift */; };
 		C0E6D0351F91FF81006905FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E6D0341F91FF81006905FD /* main.swift */; };
 		C0EE9F221FF63FE50052308C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE9F211FF63FE50052308C /* main.swift */; };
+		C0F46427201203A300F1BCDD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F46426201203A300F1BCDD /* main.swift */; };
 		C0FD4C54200F8671005823C3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD4C53200F8671005823C3 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -550,6 +551,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		C0F46422201203A300F1BCDD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		C0FD4C4F200F8671005823C3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -669,6 +679,8 @@
 		C0E6D0341F91FF81006905FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C0EE9F1F1FF63FE50052308C /* 45-JumpGameII */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "45-JumpGameII"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EE9F211FF63FE50052308C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C0F46424201203A300F1BCDD /* 55-JumpGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "55-JumpGame"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F46426201203A300F1BCDD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C0FD4C51200F8671005823C3 /* 54-SpiralMatrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "54-SpiralMatrix"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FD4C53200F8671005823C3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1052,6 +1064,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C0F46421201203A300F1BCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0FD4C4E200F8671005823C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1159,6 +1178,7 @@
 				C086C48B200B3404003AF4EA /* 52-N-QueensII */,
 				C0602D51200E3BA000E8B363 /* 53-MaximumSubarray */,
 				C0FD4C52200F8671005823C3 /* 54-SpiralMatrix */,
+				C0F46425201203A300F1BCDD /* 55-JumpGame */,
 				C034E9731F91BDFF00D19AE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1221,6 +1241,7 @@
 				C086C48A200B3404003AF4EA /* 52-N-QueensII */,
 				C0602D50200E3BA000E8B363 /* 53-MaximumSubarray */,
 				C0FD4C51200F8671005823C3 /* 54-SpiralMatrix */,
+				C0F46424201203A300F1BCDD /* 55-JumpGame */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1607,6 +1628,14 @@
 				C0EE9F211FF63FE50052308C /* main.swift */,
 			);
 			path = "45-JumpGameII";
+			sourceTree = "<group>";
+		};
+		C0F46425201203A300F1BCDD /* 55-JumpGame */ = {
+			isa = PBXGroup;
+			children = (
+				C0F46426201203A300F1BCDD /* main.swift */,
+			);
+			path = "55-JumpGame";
 			sourceTree = "<group>";
 		};
 		C0FD4C52200F8671005823C3 /* 54-SpiralMatrix */ = {
@@ -2538,6 +2567,23 @@
 			productReference = C0EE9F1F1FF63FE50052308C /* 45-JumpGameII */;
 			productType = "com.apple.product-type.tool";
 		};
+		C0F46423201203A300F1BCDD /* 55-JumpGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F4642A201203A300F1BCDD /* Build configuration list for PBXNativeTarget "55-JumpGame" */;
+			buildPhases = (
+				C0F46420201203A300F1BCDD /* Sources */,
+				C0F46421201203A300F1BCDD /* Frameworks */,
+				C0F46422201203A300F1BCDD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "55-JumpGame";
+			productName = "55-JumpGame";
+			productReference = C0F46424201203A300F1BCDD /* 55-JumpGame */;
+			productType = "com.apple.product-type.tool";
+		};
 		C0FD4C50200F8671005823C3 /* 54-SpiralMatrix */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0FD4C57200F8671005823C3 /* Build configuration list for PBXNativeTarget "54-SpiralMatrix" */;
@@ -2835,6 +2881,11 @@
 						DevelopmentTeam = PGNG7584J8;
 						ProvisioningStyle = Automatic;
 					};
+					C0F46423201203A300F1BCDD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PGNG7584J8;
+						ProvisioningStyle = Automatic;
+					};
 					C0FD4C50200F8671005823C3 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = PGNG7584J8;
@@ -2909,6 +2960,7 @@
 				C086C489200B3404003AF4EA /* 52-N-QueensII */,
 				C0602D4F200E3BA000E8B363 /* 53-MaximumSubarray */,
 				C0FD4C50200F8671005823C3 /* 54-SpiralMatrix */,
+				C0F46423201203A300F1BCDD /* 55-JumpGame */,
 			);
 		};
 /* End PBXProject section */
@@ -3342,6 +3394,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0EE9F221FF63FE50052308C /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F46420201203A300F1BCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F46427201203A300F1BCDD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4418,6 +4478,24 @@
 			};
 			name = Release;
 		};
+		C0F46428201203A300F1BCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C0F46429201203A300F1BCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		C0FD4C55200F8671005823C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4934,6 +5012,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		C0F4642A201203A300F1BCDD /* Build configuration list for PBXNativeTarget "55-JumpGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F46428201203A300F1BCDD /* Debug */,
+				C0F46429201203A300F1BCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C0FD4C57200F8671005823C3 /* Build configuration list for PBXNativeTarget "54-SpiralMatrix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4941,6 +5027,7 @@
 				C0FD4C56200F8671005823C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

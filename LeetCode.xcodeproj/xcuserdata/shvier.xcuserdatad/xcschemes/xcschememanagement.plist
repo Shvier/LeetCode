@@ -254,6 +254,11 @@
 			<key>orderHint</key>
 			<integer>53</integer>
 		</dict>
+		<key>55-JumpGame.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>54</integer>
+		</dict>
 		<key>6-ZigZagConversion.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -563,6 +568,11 @@
 			<true/>
 		</dict>
 		<key>C0EE9F1E1FF63FE50052308C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0F46423201203A300F1BCDD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
