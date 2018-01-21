@@ -264,6 +264,11 @@
 			<key>orderHint</key>
 			<integer>55</integer>
 		</dict>
+		<key>57-InsertInterval.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>56</integer>
+		</dict>
 		<key>6-ZigZagConversion.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -498,6 +503,11 @@
 			<true/>
 		</dict>
 		<key>C0A9921D20132065006AF7D2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0A9922820132E98006AF7D2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
