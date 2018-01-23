@@ -284,6 +284,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>60-PermutationSequence.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>59</integer>
+		</dict>
 		<key>7-ReverseInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -483,6 +488,11 @@
 			<true/>
 		</dict>
 		<key>C09273161FCA63B100498463</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0952FAC2017346800CE27F2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
