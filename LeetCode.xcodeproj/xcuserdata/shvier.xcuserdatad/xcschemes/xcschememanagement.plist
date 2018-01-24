@@ -289,6 +289,11 @@
 			<key>orderHint</key>
 			<integer>59</integer>
 		</dict>
+		<key>61-RotateList.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>60</integer>
+		</dict>
 		<key>7-ReverseInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -558,6 +563,11 @@
 			<true/>
 		</dict>
 		<key>C0BF1F462004F9CC006F1CAF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0CB30D32018CC2F009527A4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
