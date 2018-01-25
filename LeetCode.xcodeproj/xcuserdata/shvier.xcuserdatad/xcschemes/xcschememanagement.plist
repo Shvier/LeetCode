@@ -294,6 +294,11 @@
 			<key>orderHint</key>
 			<integer>60</integer>
 		</dict>
+		<key>62-UniquePaths.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>61</integer>
+		</dict>
 		<key>7-ReverseInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -483,6 +488,11 @@
 			<true/>
 		</dict>
 		<key>C083C3DA1FF9E40A00A21981</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0844579201A273500436CCA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
