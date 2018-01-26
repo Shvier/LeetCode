@@ -17,21 +17,28 @@ class Solution {
             return 0
         }
         let n = opN!
-        var path = Array(repeating: Array(repeatElement(n, count: 1)), count: m)
-        for i in 1..<m {
-            for j in 1..<n {
-                if obstacleGrid[i][j-1] == 1 && obstacleGrid[i-1][j] != 1 {
-                    path[i][j] = path[i-1][j]
-                } else if obstacleGrid[i-1][j] == 1 && obstacleGrid[i][j-1] != 1 {
-                    path[i][j] = path[i][j-1]
-                } else if obstacleGrid[i-1][j] == 1 && obstacleGrid[i][j-1] == 1 {
+        var path = Array(repeating: Array(repeatElement(0, count: n)), count: m)
+        for i in 0..<m {
+            for j in 0..<n {
+                if obstacleGrid[i][j] == 1 {
                     path[i][j] = 0
                 } else {
-                    path[i][j] = path[i][j-1] + path[i-1][j]
+                    path[i][j] = 1
                 }
+            }
+        }
+        for i in 1..<m {
+            for j in 1..<n {
+                if path[i][j] == 0 {
+                    continue
+                }
+                path[i][j] = path[i-1][j] + path[i][j-1]
             }
         }
         return path[m-1][n-1]
     }
     
 }
+
+let solution = Solution()
+print(solution.uniquePathsWithObstacles([[1, 0]]))
