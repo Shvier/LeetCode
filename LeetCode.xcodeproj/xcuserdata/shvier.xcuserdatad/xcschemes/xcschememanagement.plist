@@ -304,6 +304,11 @@
 			<key>orderHint</key>
 			<integer>62</integer>
 		</dict>
+		<key>64-MinimumPathSum.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>63</integer>
+		</dict>
 		<key>7-ReverseInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -383,6 +388,11 @@
 			<true/>
 		</dict>
 		<key>C03D42421FC1CA2E00AEB101</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C042853D201CB1B60038D765</key>
 		<dict>
 			<key>primary</key>
 			<true/>
