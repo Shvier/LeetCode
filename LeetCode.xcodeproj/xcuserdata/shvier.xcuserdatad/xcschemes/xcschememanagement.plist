@@ -309,6 +309,11 @@
 			<key>orderHint</key>
 			<integer>63</integer>
 		</dict>
+		<key>65-ValidNumber.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>64</integer>
+		</dict>
 		<key>7-ReverseInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -588,6 +593,11 @@
 			<true/>
 		</dict>
 		<key>C0B89BC11FBB40A4007CCB45</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0BBEB49201F5F030090F863</key>
 		<dict>
 			<key>primary</key>
 			<true/>
