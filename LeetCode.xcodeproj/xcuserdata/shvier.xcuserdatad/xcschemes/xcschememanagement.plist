@@ -314,6 +314,11 @@
 			<key>orderHint</key>
 			<integer>64</integer>
 		</dict>
+		<key>66-PlusOne.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>65</integer>
+		</dict>
 		<key>7-ReverseInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -598,6 +603,11 @@
 			<true/>
 		</dict>
 		<key>C0BBEB49201F5F030090F863</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0BBEB54201F76650090F863</key>
 		<dict>
 			<key>primary</key>
 			<true/>
