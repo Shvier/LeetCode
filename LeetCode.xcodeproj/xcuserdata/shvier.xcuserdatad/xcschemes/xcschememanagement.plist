@@ -324,6 +324,11 @@
 			<key>orderHint</key>
 			<integer>66</integer>
 		</dict>
+		<key>68-TextJustification.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>67</integer>
+		</dict>
 		<key>7-ReverseInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -358,6 +363,11 @@
 			<true/>
 		</dict>
 		<key>C00C70861FDAE897002328C2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C016EA5620221C4F00C01EC1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
