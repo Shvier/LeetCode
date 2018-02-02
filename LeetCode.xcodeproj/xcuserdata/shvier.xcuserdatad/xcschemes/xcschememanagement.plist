@@ -344,6 +344,11 @@
 			<key>orderHint</key>
 			<integer>69</integer>
 		</dict>
+		<key>71-SimplifyPath.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>70</integer>
+		</dict>
 		<key>8-StringtoInteger(atoi).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -428,6 +433,11 @@
 			<true/>
 		</dict>
 		<key>C03A65A4202448AF0072BB6E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C03A65AF20244E140072BB6E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
