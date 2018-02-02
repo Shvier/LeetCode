@@ -329,6 +329,11 @@
 			<key>orderHint</key>
 			<integer>67</integer>
 		</dict>
+		<key>69-Sqrt(x).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>68</integer>
+		</dict>
 		<key>7-ReverseInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -408,6 +413,11 @@
 			<true/>
 		</dict>
 		<key>C038E5941FD83FA800F2FDDC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C03A65992024431B0072BB6E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
