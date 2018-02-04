@@ -12,11 +12,20 @@ class Solution {
     
     func simplifyPath(_ path: String) -> String {
         var ans = ""
+        var tmp = [String]()
         let subPaths = path.components(separatedBy: "/")
-        for subPath in subPaths.reversed() {
-            if subPath.lengthOfBytes(using: .utf8) > 0 && subPath != "." && subPath != ".." {
-                ans = "/\(subPath)"
+        for subPath in subPaths {
+            if subPath == "" || subPath == "." {
+                continue
             }
+            if subPath == ".." && tmp.count > 0 {
+                tmp.removeLast()
+            } else if subPath != ".." {
+                tmp.append(subPath)
+            }
+        }
+        for tmpString in tmp {
+            ans += "/" + tmpString
         }
         if ans.lengthOfBytes(using: .utf8) <= 0 {
             return "/"
@@ -27,4 +36,4 @@ class Solution {
 }
 
 let solution = Solution()
-print(solution.simplifyPath("/."))
+print(solution.simplifyPath("/abc/..."))
