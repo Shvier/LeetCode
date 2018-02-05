@@ -354,6 +354,11 @@
 			<key>orderHint</key>
 			<integer>71</integer>
 		</dict>
+		<key>73-SetMatrixZeroes.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>72</integer>
+		</dict>
 		<key>8-StringtoInteger(atoi).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -603,6 +608,11 @@
 			<true/>
 		</dict>
 		<key>C099CBDD2026B466000BE75E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C099CBE820270B43000BE75E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
