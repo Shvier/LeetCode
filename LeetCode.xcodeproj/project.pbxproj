@@ -80,6 +80,7 @@
 		C0EE9F221FF63FE50052308C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE9F211FF63FE50052308C /* main.swift */; };
 		C0F46427201203A300F1BCDD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F46426201203A300F1BCDD /* main.swift */; };
 		C0FD4C54200F8671005823C3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD4C53200F8671005823C3 /* main.swift */; };
+		C0FF70272029B10600DB43D1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FF70262029B10600DB43D1 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -749,6 +750,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		C0FF70222029B10600DB43D1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -899,6 +909,8 @@
 		C0F46426201203A300F1BCDD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C0FD4C51200F8671005823C3 /* 54-SpiralMatrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "54-SpiralMatrix"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FD4C53200F8671005823C3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C0FF70242029B10600DB43D1 /* 74-Searcha2DMatrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "74-Searcha2DMatrix"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FF70262029B10600DB43D1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1420,6 +1432,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C0FF70212029B10600DB43D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1547,6 +1566,7 @@
 				C03A65B120244E140072BB6E /* 71-SimplifyPath */,
 				C099CBDF2026B466000BE75E /* 72-EditDistance */,
 				C099CBEA20270B43000BE75E /* 73-SetMatrixZeroes */,
+				C0FF70252029B10600DB43D1 /* 74-Searcha2DMatrix */,
 				C034E9731F91BDFF00D19AE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1628,6 +1648,7 @@
 				C03A65B020244E140072BB6E /* 71-SimplifyPath */,
 				C099CBDE2026B466000BE75E /* 72-EditDistance */,
 				C099CBE920270B43000BE75E /* 73-SetMatrixZeroes */,
+				C0FF70242029B10600DB43D1 /* 74-Searcha2DMatrix */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2166,6 +2187,14 @@
 				C0FD4C53200F8671005823C3 /* main.swift */,
 			);
 			path = "54-SpiralMatrix";
+			sourceTree = "<group>";
+		};
+		C0FF70252029B10600DB43D1 /* 74-Searcha2DMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				C0FF70262029B10600DB43D1 /* main.swift */,
+			);
+			path = "74-Searcha2DMatrix";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -3429,6 +3458,23 @@
 			productReference = C0FD4C51200F8671005823C3 /* 54-SpiralMatrix */;
 			productType = "com.apple.product-type.tool";
 		};
+		C0FF70232029B10600DB43D1 /* 74-Searcha2DMatrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FF702A2029B10700DB43D1 /* Build configuration list for PBXNativeTarget "74-Searcha2DMatrix" */;
+			buildPhases = (
+				C0FF70202029B10600DB43D1 /* Sources */,
+				C0FF70212029B10600DB43D1 /* Frameworks */,
+				C0FF70222029B10600DB43D1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "74-Searcha2DMatrix";
+			productName = "74-Searcha2DMatrix";
+			productReference = C0FF70242029B10600DB43D1 /* 74-Searcha2DMatrix */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3809,6 +3855,11 @@
 						DevelopmentTeam = PGNG7584J8;
 						ProvisioningStyle = Automatic;
 					};
+					C0FF70232029B10600DB43D1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PGNG7584J8;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = C034E96D1F91BDFF00D19AE6 /* Build configuration list for PBXProject "LeetCode" */;
@@ -3897,6 +3948,7 @@
 				C03A65AF20244E140072BB6E /* 71-SimplifyPath */,
 				C099CBDD2026B466000BE75E /* 72-EditDistance */,
 				C099CBE820270B43000BE75E /* 73-SetMatrixZeroes */,
+				C0FF70232029B10600DB43D1 /* 74-Searcha2DMatrix */,
 			);
 		};
 /* End PBXProject section */
@@ -4490,6 +4542,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0FD4C54200F8671005823C3 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FF70202029B10600DB43D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FF70272029B10600DB43D1 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5918,6 +5978,24 @@
 			};
 			name = Release;
 		};
+		C0FF70282029B10600DB43D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C0FF70292029B10600DB43D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -6360,6 +6438,7 @@
 				C099CBE32026B466000BE75E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C099CBED20270B43000BE75E /* Build configuration list for PBXNativeTarget "73-SetMatrixZeroes" */ = {
 			isa = XCConfigurationList;
@@ -6368,6 +6447,7 @@
 				C099CBEF20270B43000BE75E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C09DA13A1FF8CC41000DBB8C /* Build configuration list for PBXNativeTarget "46-Permutations" */ = {
 			isa = XCConfigurationList;
@@ -6593,6 +6673,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C0FF702A2029B10700DB43D1 /* Build configuration list for PBXNativeTarget "74-Searcha2DMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FF70282029B10600DB43D1 /* Debug */,
+				C0FF70292029B10600DB43D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

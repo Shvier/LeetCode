@@ -359,6 +359,11 @@
 			<key>orderHint</key>
 			<integer>72</integer>
 		</dict>
+		<key>74-Searcha2DMatrix.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>73</integer>
+		</dict>
 		<key>8-StringtoInteger(atoi).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -758,6 +763,11 @@
 			<true/>
 		</dict>
 		<key>C0FD4C50200F8671005823C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0FF70232029B10600DB43D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
