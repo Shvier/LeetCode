@@ -364,6 +364,11 @@
 			<key>orderHint</key>
 			<integer>73</integer>
 		</dict>
+		<key>75-SortColors.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>74</integer>
+		</dict>
 		<key>8-StringtoInteger(atoi).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -488,6 +493,11 @@
 			<true/>
 		</dict>
 		<key>C054022E1FCBFDE700F70BF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0546E45202B46840043096A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
