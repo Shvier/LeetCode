@@ -369,6 +369,11 @@
 			<key>orderHint</key>
 			<integer>74</integer>
 		</dict>
+		<key>76-MinimumWindowSubstring.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>75</integer>
+		</dict>
 		<key>8-StringtoInteger(atoi).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -498,6 +503,11 @@
 			<true/>
 		</dict>
 		<key>C0546E45202B46840043096A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0546E50202B50AD0043096A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
