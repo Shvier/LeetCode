@@ -23,26 +23,39 @@ class Solution {
         var d = Int.max
         var head = 0
         while end < sCharacters.count {
-            if map[String(sCharacters[end])]! > 0 {
-                counter -= 1
+            if map[String(sCharacters[end])] != nil {
+                if map[String(sCharacters[end])]! > 0 {
+                    counter -= 1
+                }
+                map[String(sCharacters[end])] = map[String(sCharacters[end])]! - 1
             }
-            map[String(sCharacters[end])] = map[String(sCharacters[end])]! - 1
             end += 1
             while counter == 0 {
                 if end - begin < d {
                     head = begin
                     d = end - head
                 }
-                if map[String(sCharacters[begin])] == 0 {
-                    counter += 1
+                if map[String(sCharacters[begin])] != nil {
+                    if map[String(sCharacters[begin])] == 0 {
+                        counter += 1
+                    }
+                    map[String(sCharacters[begin])] = map[String(sCharacters[begin])]! + 1
                 }
-                map[String(sCharacters[begin])] = map[String(sCharacters[begin])]! - 1
                 begin += 1
             }
         }
+        if d == Int.max {
+            return ""
+        }
         let startIndex = s.index(s.startIndex, offsetBy: head)
-        let endIndex = s.index(startIndex, offsetBy: end)
-        return d == Int.max ? "" : s.substring(with: startIndex..<endIndex)
+        if d <= head {
+            return s.substring(from: startIndex)
+        }
+        let endIndex = s.index(s.startIndex, offsetBy: d)
+        return s.substring(with: startIndex..<endIndex)
     }
     
 }
+
+let solution = Solution()
+print(solution.minWindow("aa", "aa"))
