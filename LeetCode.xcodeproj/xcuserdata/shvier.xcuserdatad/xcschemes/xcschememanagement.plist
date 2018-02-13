@@ -374,6 +374,11 @@
 			<key>orderHint</key>
 			<integer>75</integer>
 		</dict>
+		<key>77-Combinations.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>76</integer>
+		</dict>
 		<key>8-StringtoInteger(atoi).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -643,6 +648,11 @@
 			<true/>
 		</dict>
 		<key>C09DA1331FF8CC41000DBB8C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C09EDBF02032C2A1008F8E4D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
