@@ -16,20 +16,24 @@ class Solution {
             return ans
         }
         var temp = [Int]()
-        for i in 1...n {
-            subCombine(i, n, &temp, &ans)
-        }
+        subCombine(1, n, k, &temp, &ans)
+        ans.removeLast()
         return ans
     }
     
-    func subCombine(_ start: Int, _ max: Int, _ temp: inout [Int], _ ans: inout [[Int]]) {
-        if max <= temp.count {
+    func subCombine(_ start: Int, _ max: Int, _ count: Int, _ temp: inout [Int], _ ans: inout [[Int]]) {
+        if count == temp.count {
             ans.append(temp)
             return
         }
         for i in start...max {
-            
+            temp.append(i)
+            subCombine(i, max, count, &temp, &ans)
+            temp.removeLast()
         }
     }
     
 }
+
+let solution = Solution()
+print(solution.combine(6, 0))
