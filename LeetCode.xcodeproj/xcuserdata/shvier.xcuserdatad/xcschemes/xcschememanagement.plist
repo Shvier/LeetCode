@@ -384,6 +384,11 @@
 			<key>orderHint</key>
 			<integer>77</integer>
 		</dict>
+		<key>79-WordSearch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>78</integer>
+		</dict>
 		<key>8-StringtoInteger(atoi).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -668,6 +673,11 @@
 			<true/>
 		</dict>
 		<key>C0A08CBA20381B7A00152F68</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0A08CC5203820F600152F68</key>
 		<dict>
 			<key>primary</key>
 			<true/>
