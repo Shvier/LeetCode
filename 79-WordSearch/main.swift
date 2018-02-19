@@ -11,29 +11,43 @@ import Foundation
 class Solution {
     
     func exist(_ board: [[Character]], _ word: String) -> Bool {
-        var boardMap = [Character: Int]()
-        for charaters in board {
-            for character in charaters {
-                if boardMap[character] == nil {
-                    boardMap[character] = 1
-                } else {
-                    boardMap[character] = boardMap[character]! + 1
+        let row = board.count
+        guard let firstCol = board.first else { return false }
+        let col = firstCol.count
+        var matrix = board
+        let characters = [Character](word.characters)
+        for i in 0..<row {
+            for j in 0..<col {
+                if search(i, j, row, col, &matrix, 0, characters) {
+                    return true
                 }
             }
         }
-        let wordCharacters = [Character](word.characters)
-        for character in wordCharacters {
-            guard var boardCharacterCount = boardMap[character] else { return false }
-            boardCharacterCount -= 1
-            boardMap[character] = boardCharacterCount
-            if boardCharacterCount < 0 {
-                return false
-            }
+        return false
+    }
+    
+    func search(_ x: Int, _ y: Int, _ maxRow: Int, _ maxCol: Int, _ board: inout [[Character]], _ index: Int, _ characters: [Character]) -> Bool {
+        if index == characters.count {
+            return true
         }
-        return true
+        if x >= maxRow || y >= maxCol || x < 0 || y < 0 {
+            return false
+        }
+        if board[x][y] == characters[index] {
+            let temp = board[x][y]
+            board[x][y] = "*"
+            let ans = search(x, y-1, maxRow, maxCol, &board, index+1, characters) ||
+                search(x-1, y, maxRow, maxCol, &board, index+1, characters) ||
+                search(x, y+1, maxRow, maxCol, &board, index+1, characters) ||
+                search(x+1, y, maxRow, maxCol, &board, index+1, characters)
+            board[x][y] = temp
+            return ans
+        } else {
+            return false
+        }
     }
     
 }
 
 let solution = Solution()
-print(solution.exist([["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], "ABCCED"))
+print(solution.exist([["a"], ["a"]], "aaa"))
