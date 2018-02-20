@@ -394,6 +394,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>80-RemoveDuplicatesfromSortedArrayII.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>79</integer>
+		</dict>
 		<key>9-PalindromeNumber.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -488,6 +493,11 @@
 			<true/>
 		</dict>
 		<key>C042853D201CB1B60038D765</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0446FE9203B1612001BEDB5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
