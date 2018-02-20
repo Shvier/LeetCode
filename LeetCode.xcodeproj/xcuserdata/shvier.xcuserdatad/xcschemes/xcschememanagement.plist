@@ -399,6 +399,11 @@
 			<key>orderHint</key>
 			<integer>79</integer>
 		</dict>
+		<key>81-SearchinRotatedSortedArrayII.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>80</integer>
+		</dict>
 		<key>9-PalindromeNumber.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -753,6 +758,11 @@
 			<true/>
 		</dict>
 		<key>C0CB30D32018CC2F009527A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0CFF85D203BB115007FEE7A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
