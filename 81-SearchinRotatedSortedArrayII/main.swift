@@ -11,34 +11,34 @@ import Foundation
 class Solution {
     
     func search(_ nums: [Int], _ target: Int) -> Bool {
-        let index = search(nums, 0, nums.count-1, target)
-        if index < 0 || index >= nums.count {
+        if nums.count < 1 {
             return false
         }
-        return nums[index] == target
-    }
-    
-    func search(_ nums: [Int], _ start: Int, _ end: Int, _ target: Int) -> Int {
-        if start > end {
-            return -1
-        }
-        let mid = (start+end)/2
-        if nums[mid] == target {
-            return mid
-        }
-        if nums[mid] < nums[end] {
-            if target > nums[mid] && target <= nums[end] {
-                return search(nums, mid+1, end, target)
-            } else {
-                return search(nums, start, mid-1, target)
+        var left = 0
+        var right = nums.count - 1
+        var mid = 0
+        while left < right {
+            mid = (left + right)/2
+            if nums[mid] == target {
+                return true
             }
-        } else {
-            if target >= nums[start] && target < nums[mid] {
-                return search(nums, start, mid-1, target)
+            if nums[mid] > nums[right] {
+                if nums[mid] > target && nums[left] <= target {
+                    right = mid
+                } else {
+                    left = mid + 1
+                }
+            } else if nums[mid] < nums[right] {
+                if nums[mid] < target && nums[right] >= target {
+                    left = mid + 1
+                } else {
+                    right = mid
+                }
             } else {
-                return search(nums, mid+1, end, target)
+                right -= 1
             }
         }
+        return nums[left] == target
     }
     
 }
