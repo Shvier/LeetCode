@@ -28,6 +28,7 @@
 		C051A5B71FEAB50E00649D9D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C051A5B61FEAB50E00649D9D /* main.swift */; };
 		C051A5C21FEABA9A00649D9D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C051A5C11FEABA9A00649D9D /* main.swift */; };
 		C052549A1FA32DBB00B85DE2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05254991FA32DBB00B85DE2 /* main.swift */; };
+		C0529432203D57E300276535 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0529431203D57E300276535 /* main.swift */; };
 		C05402271FCBF79100F70BF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05402261FCBF79100F70BF1 /* main.swift */; };
 		C05402321FCBFDE700F70BF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05402311FCBFDE700F70BF1 /* main.swift */; };
 		C0546E49202B46840043096A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0546E48202B46840043096A /* main.swift */; };
@@ -281,6 +282,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		C05254951FA32DBB00B85DE2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C052942D203D57E200276535 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -875,6 +885,8 @@
 		C051A5C11FEABA9A00649D9D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C05254971FA32DBB00B85DE2 /* 12-IntegertoRoman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-IntegertoRoman"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05254991FA32DBB00B85DE2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C052942F203D57E200276535 /* 82-RemoveDuplicatesfromSortedListII */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "82-RemoveDuplicatesfromSortedListII"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0529431203D57E300276535 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C05402241FCBF79100F70BF1 /* 28-ImplementstrStr() */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "28-ImplementstrStr()"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05402261FCBF79100F70BF1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C054022F1FCBFDE700F70BF1 /* 29-DivideTwoIntegers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "29-DivideTwoIntegers"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1146,6 +1158,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C05254941FA32DBB00B85DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C052942C203D57E200276535 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1707,6 +1726,7 @@
 				C0A08CC7203820F600152F68 /* 79-WordSearch */,
 				C0446FEB203B1612001BEDB5 /* 80-RemoveDuplicatesfromSortedArrayII */,
 				C0CFF85F203BB115007FEE7A /* 81-SearchinRotatedSortedArrayII */,
+				C0529430203D57E200276535 /* 82-RemoveDuplicatesfromSortedListII */,
 				C034E9731F91BDFF00D19AE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1796,6 +1816,7 @@
 				C0A08CC6203820F600152F68 /* 79-WordSearch */,
 				C0446FEA203B1612001BEDB5 /* 80-RemoveDuplicatesfromSortedArrayII */,
 				C0CFF85E203BB115007FEE7A /* 81-SearchinRotatedSortedArrayII */,
+				C052942F203D57E200276535 /* 82-RemoveDuplicatesfromSortedListII */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1918,6 +1939,14 @@
 				C05254991FA32DBB00B85DE2 /* main.swift */,
 			);
 			path = "12-IntegertoRoman";
+			sourceTree = "<group>";
+		};
+		C0529430203D57E200276535 /* 82-RemoveDuplicatesfromSortedListII */ = {
+			isa = PBXGroup;
+			children = (
+				C0529431203D57E300276535 /* main.swift */,
+			);
+			path = "82-RemoveDuplicatesfromSortedListII";
 			sourceTree = "<group>";
 		};
 		C05402251FCBF79100F70BF1 /* 28-ImplementstrStr() */ = {
@@ -2775,6 +2804,23 @@
 			name = "12-IntegertoRoman";
 			productName = "12-IntegertoRoman";
 			productReference = C05254971FA32DBB00B85DE2 /* 12-IntegertoRoman */;
+			productType = "com.apple.product-type.tool";
+		};
+		C052942E203D57E200276535 /* 82-RemoveDuplicatesfromSortedListII */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0529435203D57E300276535 /* Build configuration list for PBXNativeTarget "82-RemoveDuplicatesfromSortedListII" */;
+			buildPhases = (
+				C052942B203D57E200276535 /* Sources */,
+				C052942C203D57E200276535 /* Frameworks */,
+				C052942D203D57E200276535 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "82-RemoveDuplicatesfromSortedListII";
+			productName = "82-RemoveDuplicatesfromSortedListII";
+			productReference = C052942F203D57E200276535 /* 82-RemoveDuplicatesfromSortedListII */;
 			productType = "com.apple.product-type.tool";
 		};
 		C05402231FCBF79100F70BF1 /* 28-ImplementstrStr() */ = {
@@ -3917,6 +3963,11 @@
 						DevelopmentTeam = PGNG7584J8;
 						ProvisioningStyle = Automatic;
 					};
+					C052942E203D57E200276535 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PGNG7584J8;
+						ProvisioningStyle = Automatic;
+					};
 					C05402231FCBF79100F70BF1 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = PGNG7584J8;
@@ -4313,6 +4364,7 @@
 				C0A08CC5203820F600152F68 /* 79-WordSearch */,
 				C0446FE9203B1612001BEDB5 /* 80-RemoveDuplicatesfromSortedArrayII */,
 				C0CFF85D203BB115007FEE7A /* 81-SearchinRotatedSortedArrayII */,
+				C052942E203D57E200276535 /* 82-RemoveDuplicatesfromSortedListII */,
 			);
 		};
 /* End PBXProject section */
@@ -4490,6 +4542,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C052549A1FA32DBB00B85DE2 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C052942B203D57E200276535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0529432203D57E300276535 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5454,6 +5514,24 @@
 			name = Debug;
 		};
 		C052549C1FA32DBB00B85DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C0529433203D57E300276535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C0529434203D57E300276535 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = PGNG7584J8;
@@ -6752,6 +6830,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		C0529435203D57E300276535 /* Build configuration list for PBXNativeTarget "82-RemoveDuplicatesfromSortedListII" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0529433203D57E300276535 /* Debug */,
+				C0529434203D57E300276535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C054022A1FCBF79100F70BF1 /* Build configuration list for PBXNativeTarget "28-ImplementstrStr()" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -7173,6 +7259,7 @@
 				C0CFF863203BB115007FEE7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0D27D311F98F8B50025F343 /* Build configuration list for PBXNativeTarget "8-StringtoInteger(atoi)" */ = {
 			isa = XCConfigurationList;
