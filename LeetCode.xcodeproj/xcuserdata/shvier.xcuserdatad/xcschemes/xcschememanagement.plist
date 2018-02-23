@@ -414,6 +414,11 @@
 			<key>orderHint</key>
 			<integer>82</integer>
 		</dict>
+		<key>84-LargestRectangleinHistogram.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>83</integer>
+		</dict>
 		<key>9-PalindromeNumber.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -738,6 +743,11 @@
 			<true/>
 		</dict>
 		<key>C0A9922820132E98006AF7D2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0ABD980204063A200976DD1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
