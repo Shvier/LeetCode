@@ -419,6 +419,11 @@
 			<key>orderHint</key>
 			<integer>83</integer>
 		</dict>
+		<key>85-MaximalRectangle.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>84</integer>
+		</dict>
 		<key>9-PalindromeNumber.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -563,6 +568,11 @@
 			<true/>
 		</dict>
 		<key>C0546E50202B50AD0043096A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C057B6932041B09A008DAEE3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
