@@ -424,6 +424,11 @@
 			<key>orderHint</key>
 			<integer>84</integer>
 		</dict>
+		<key>86-PartitionList.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>85</integer>
+		</dict>
 		<key>9-PalindromeNumber.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -433,6 +438,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>C000626F1FE964B100F50061</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C009E9BE204313B80037A178</key>
 		<dict>
 			<key>primary</key>
 			<true/>
