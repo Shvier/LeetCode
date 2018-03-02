@@ -17,31 +17,25 @@ class Solution {
         var ans = 0
         var left = Array(repeating: 0, count: col)
         var right = Array(repeating: col, count: col)
-        var height = Array(repeating: Array(repeatElement(0, count: col)), count: row)
+        var height = Array(repeating: 0, count: col)
         for i in 0..<row {
             var curLeft = 0
             var curRight = col
             for j in 0..<col {
                 if matrix[i][j] == "1" {
-                    if i == 0 {
-                        height[i][j] = 1
-                    } else {
-                        height[i][j] = height[i-1][j] + 1
-                    }
+                    height[j] += 1
                 } else {
-                    height[i][j] = 0
+                    height[j] = 0
                 }
-            }
-            for j in 0..<col {
-                if matrix[i][j] == "1" {
+                if height[j] > 0 {
                     left[j] = max(left[j], curLeft)
                 } else {
                     left[j] = 0
-                    curLeft += 1
+                    curLeft = j + 1
                 }
             }
             for j in (0..<col).reversed() {
-                if matrix[i][j] == "1" {
+                if height[j] > 0 {
                     right[j] = min(right[j], curRight)
                 } else {
                     right[j] = col
@@ -49,7 +43,7 @@ class Solution {
                 }
             }
             for j in 0..<col {
-                ans = max(ans, (right[j]-left[j])*height[i][j])
+                ans = max(ans, (right[j]-left[j])*height[j])
             }
         }
         return ans
