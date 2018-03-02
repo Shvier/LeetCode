@@ -21,32 +21,24 @@ public class ListNode {
 class Solution {
     
     func partition(_ head: ListNode?, _ x: Int) -> ListNode? {
-        guard let newHead = head else { return  head }
-        if head?.next == nil {
-            return head
-        }
-        let ans = ListNode.init(0)
-        var p = ListNode.init(0)
-        var q = ListNode.init(0)
-        let pHead = p
-        let qHead = q
-        var pEnd = p
-        var temp = head
-        while temp != nil {
-            let t = ListNode.init(temp!.val)
-            if temp!.val < x {
-                p.next = t
+        var newHead = head
+        let pHead = ListNode.init(0)
+        let qHead = ListNode.init(0)
+        var p = pHead
+        var q = qHead
+        while newHead != nil {
+            if newHead!.val < x {
+                p.next = newHead
                 p = p.next!
-                pEnd = p
             } else {
-                q.next = t
+                q.next = newHead
                 q = q.next!
             }
-            temp = temp!.next
+            newHead = newHead?.next
         }
-        pEnd.next = qHead.next
-        ans.next = pHead.next
-        return ans.next
+        q.next = nil
+        p.next = qHead.next
+        return pHead.next
     }
     
 }
