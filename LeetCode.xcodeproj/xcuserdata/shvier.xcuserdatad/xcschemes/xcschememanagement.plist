@@ -429,6 +429,11 @@
 			<key>orderHint</key>
 			<integer>85</integer>
 		</dict>
+		<key>87-ScrambleString.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>86</integer>
+		</dict>
 		<key>9-PalindromeNumber.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -498,6 +503,11 @@
 			<true/>
 		</dict>
 		<key>C034E9AB1F91E4FD00D19AE6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0355DCB2049434800AC6093</key>
 		<dict>
 			<key>primary</key>
 			<true/>
