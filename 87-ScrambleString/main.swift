@@ -44,12 +44,18 @@ class Solution {
             let s1RightIndex = s1.index(s1.endIndex, offsetBy: -(s1Length-index))
             let s1LeftSubString = s1.substring(to: s1LeftIndex)
             let s1RightSubString = s1.substring(from: s1RightIndex)
-            let s2LeftIndex = s2.index(s2.startIndex, offsetBy: index)
-            let s2RightIndex = s2.index(s2.endIndex, offsetBy: -(s2Length-index))
-            let s2LeftSubString = s2.substring(to: s2LeftIndex)
-            let s2RightSubString = s2.substring(from: s2RightIndex)
-            if isScramble(s1LeftSubString, s2LeftSubString) && isScramble(s1RightSubString, s2RightSubString) ||
-                isScramble(s1LeftSubString, s2RightSubString) && isScramble(s1RightSubString, s2LeftSubString) {
+            let s2LeftIndex1 = s2.index(s2.startIndex, offsetBy: index)
+            let s2LeftIndex2 = s2.index(s2.startIndex, offsetBy: s2Length-index)
+            let s2RightIndex1 = s2.index(s2.endIndex, offsetBy: -(s2Length-index))
+            let s2RightIndex2 = s2.index(s2.endIndex, offsetBy: -index)
+            let s2LeftSubString1 = s2.substring(to: s2LeftIndex1)
+            let s2LeftSubString2 = s2.substring(to: s2LeftIndex2)
+            let s2RightSubString1 = s2.substring(from: s2RightIndex1)
+            let s2RightSubString2 = s2.substring(from: s2RightIndex2)
+            if isScramble(s1LeftSubString, s2LeftSubString1) && isScramble(s1RightSubString, s2RightSubString1) {
+                return true
+            }
+            if isScramble(s1LeftSubString, s2RightSubString2) && isScramble(s1RightSubString, s2LeftSubString2) {
                 return true
             }
         }
