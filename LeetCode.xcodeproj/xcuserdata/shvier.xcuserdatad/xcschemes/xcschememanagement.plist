@@ -434,6 +434,11 @@
 			<key>orderHint</key>
 			<integer>86</integer>
 		</dict>
+		<key>88-MergeSortedArray.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>87</integer>
+		</dict>
 		<key>9-PalindromeNumber.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
