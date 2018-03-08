@@ -439,6 +439,11 @@
 			<key>orderHint</key>
 			<integer>87</integer>
 		</dict>
+		<key>89-GrayCode.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>88</integer>
+		</dict>
 		<key>9-PalindromeNumber.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -773,6 +778,11 @@
 			<true/>
 		</dict>
 		<key>C0A31B1F1FA429A200107892</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0A4BB00204CF5D100B5F854</key>
 		<dict>
 			<key>primary</key>
 			<true/>
