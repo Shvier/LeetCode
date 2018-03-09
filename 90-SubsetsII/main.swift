@@ -11,31 +11,25 @@ import Foundation
 class Solution {
     
     func subsetsWithDup(_ nums: [Int]) -> [[Int]] {
+        let sortedNums = nums.sorted()
         var ans = [[Int]]()
-        var temp = [Int]()
-        ans.append(temp)
-        let count = nums.count
-        for index in 0..<count {
-            if index > 0 && nums[index] == nums[index-1] {
-                continue
+        ans.append([Int]())
+        var count = 0
+        var startIndex = 0
+        for i in 0..<sortedNums.count {
+            if i > 0 && sortedNums[i] == sortedNums[i-1] {
+                startIndex = count
+            } else {
+                startIndex = 0
             }
-            temp.removeAll()
-            subset(&ans, nums, &temp, index, index+1, count)
-        }
-        return ans
-    }
-    
-    func subset(_ ans: inout [[Int]], _ nums: [Int], _ temp: inout [Int], _ start: Int, _ current: Int, _ max: Int) {
-        temp.append(nums[start])
-        ans.append(temp)
-        for i in current..<max {
-            for j in i..<max {
-                temp.append(nums[j])
+            count = ans.count
+            for j in startIndex..<count {
+                var temp = ans[j]
+                temp.append(sortedNums[i])
                 ans.append(temp)
             }
-            temp.removeAll()
-            temp.append(nums[start])
         }
+        return ans
     }
     
 }
