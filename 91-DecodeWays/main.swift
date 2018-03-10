@@ -11,32 +11,23 @@ import Foundation
 class Solution {
     
     func numDecodings(_ s: String) -> Int {
-        let trimmedString = s.replacingOccurrences(of: "0", with: "")
-        let characters = [Character](trimmedString.characters)
+        let characters = [Character](s.characters)
         let length = characters.count
         if length < 1 {
             return 0
         }
-        var ans = Array(repeating: 0, count: characters.count)
+        var ans = Array(repeating: 0, count: characters.count+1)
         ans[0] = 1
+        ans[1] = characters[0] == "0" ? 0 : 1
         if length >= 2 {
-            let number = Int.init(String(characters[0]) + String(characters[1]))
-            if number! <= 26 {
-                ans[1] = 2
-            } else {
-                ans[1] = 1
-            }
-        }
-        if length > 2 {
-            for index in 2..<length {
-                let prevIndex = trimmedString.index(trimmedString.startIndex, offsetBy: index-1)
-                let currentIndex = trimmedString.index(trimmedString.startIndex, offsetBy: index)
-                let subset = trimmedString.substring(with: prevIndex..<currentIndex)
-                let number = Int.init(subset)
-                if number! <= 26 {
-                    ans[index] = ans[index-1] + ans[index-2]
-                } else {
-                    ans[index] = ans[index-1]
+            for index in 2...length {
+                let current = Int.init(String(characters[index-1]))!
+                let lastTwo = Int.init(String(characters[index-2]) + String(characters[index-1]))!
+                if current > 0 && current < 10 {
+                    ans[index] += ans[index-1]
+                }
+                if lastTwo >= 10 && lastTwo <= 26 {
+                    ans[index] += ans[index-2]
                 }
             }
         }
@@ -46,4 +37,4 @@ class Solution {
 }
 
 let solution = Solution()
-print(solution.numDecodings("111"))
+print(solution.numDecodings("0"))
