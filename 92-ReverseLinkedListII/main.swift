@@ -24,25 +24,29 @@ public class ListNode {
         if head == nil {
             return head
         }
-        var p = head
-        var q = head
-        var prevP = head
-        var nextQ = head
-        for i in 0..<n {
-            if i < m-1 {
-                prevP = prevP?.next
+        let newHead = ListNode.init(0)
+        newHead.next = head
+        var prev = newHead
+        for _ in 0..<m-1 {
+            if prev.next != nil {
+                prev = prev.next!
             }
-            if i < m {
-                p = p?.next
-            }
-            q = q?.next
-            nextQ = nextQ?.next
         }
-        nextQ = nextQ?.next != nil ? nextQ?.next : nextQ
-        q?.next = p
-        prevP?.next = q
-        p?.next = nextQ
-        return head
+        let start = prev.next
+        var then = start?.next
+        for _ in 0..<n-m {
+            start?.next = then?.next
+            then?.next = prev.next
+            prev.next = then
+            then = start?.next
+        }
+        return newHead.next
     }
  
 }
+
+let node1 = ListNode.init(3)
+let node2 = ListNode.init(5)
+node1.next = node2
+let solution = Solution()
+print(solution.reverseBetween(node1, 1, 2))
