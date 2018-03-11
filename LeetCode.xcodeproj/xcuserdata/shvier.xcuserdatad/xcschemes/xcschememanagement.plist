@@ -464,6 +464,11 @@
 			<key>orderHint</key>
 			<integer>91</integer>
 		</dict>
+		<key>93-RestoreIPAddresses.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>92</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -728,6 +733,11 @@
 			<true/>
 		</dict>
 		<key>C0844584201A325700436CCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C084492A20553B690090A393</key>
 		<dict>
 			<key>primary</key>
 			<true/>

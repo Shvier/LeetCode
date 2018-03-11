@@ -59,6 +59,7 @@
 		C083C3DE1FF9E40A00A21981 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083C3DD1FF9E40A00A21981 /* main.swift */; };
 		C084457D201A273500436CCA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084457C201A273500436CCA /* main.swift */; };
 		C0844588201A325700436CCA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0844587201A325700436CCA /* main.swift */; };
+		C084492E20553B690090A393 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084492D20553B690090A393 /* main.swift */; };
 		C086C48D200B3404003AF4EA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086C48C200B3404003AF4EA /* main.swift */; };
 		C092731A1FCA63B100498463 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09273191FCA63B100498463 /* main.swift */; };
 		C0952FB02017346800CE27F2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0952FAF2017346800CE27F2 /* main.swift */; };
@@ -579,6 +580,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		C084492920553B690090A393 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		C086C488200B3404003AF4EA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1047,6 +1057,8 @@
 		C084457C201A273500436CCA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C0844585201A325700436CCA /* 63-UniquePathsII */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "63-UniquePathsII"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0844587201A325700436CCA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C084492B20553B690090A393 /* 93-RestoreIPAddresses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "93-RestoreIPAddresses"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C084492D20553B690090A393 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C086C48A200B3404003AF4EA /* 52-N-QueensII */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "52-N-QueensII"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C086C48C200B3404003AF4EA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C09273171FCA63B100498463 /* 27-RemoveElement */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "27-RemoveElement"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1495,6 +1507,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C0844582201A325700436CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C084492820553B690090A393 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1951,6 +1970,7 @@
 				C010704E205184110058DD4B /* 90-SubsetsII */,
 				C0A4F9002052790B009DF40F /* 91-DecodeWays */,
 				C0335E19205408B40057BFC6 /* 92-ReverseLinkedListII */,
+				C084492C20553B690090A393 /* 93-RestoreIPAddresses */,
 				C034E9731F91BDFF00D19AE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2051,6 +2071,7 @@
 				C010704D205184110058DD4B /* 90-SubsetsII */,
 				C0A4F8FF2052790B009DF40F /* 91-DecodeWays */,
 				C0335E18205408B40057BFC6 /* 92-ReverseLinkedListII */,
+				C084492B20553B690090A393 /* 93-RestoreIPAddresses */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2397,6 +2418,14 @@
 				C0844587201A325700436CCA /* main.swift */,
 			);
 			path = "63-UniquePathsII";
+			sourceTree = "<group>";
+		};
+		C084492C20553B690090A393 /* 93-RestoreIPAddresses */ = {
+			isa = PBXGroup;
+			children = (
+				C084492D20553B690090A393 /* main.swift */,
+			);
+			path = "93-RestoreIPAddresses";
 			sourceTree = "<group>";
 		};
 		C086C48B200B3404003AF4EA /* 52-N-QueensII */ = {
@@ -3623,6 +3652,23 @@
 			productReference = C0844585201A325700436CCA /* 63-UniquePathsII */;
 			productType = "com.apple.product-type.tool";
 		};
+		C084492A20553B690090A393 /* 93-RestoreIPAddresses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C084493120553B690090A393 /* Build configuration list for PBXNativeTarget "93-RestoreIPAddresses" */;
+			buildPhases = (
+				C084492720553B690090A393 /* Sources */,
+				C084492820553B690090A393 /* Frameworks */,
+				C084492920553B690090A393 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "93-RestoreIPAddresses";
+			productName = "93-RestoreIPAddresses";
+			productReference = C084492B20553B690090A393 /* 93-RestoreIPAddresses */;
+			productType = "com.apple.product-type.tool";
+		};
 		C086C489200B3404003AF4EA /* 52-N-QueensII */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C086C490200B3404003AF4EA /* Build configuration list for PBXNativeTarget "52-N-QueensII" */;
@@ -4578,6 +4624,11 @@
 						DevelopmentTeam = PGNG7584J8;
 						ProvisioningStyle = Automatic;
 					};
+					C084492A20553B690090A393 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PGNG7584J8;
+						ProvisioningStyle = Automatic;
+					};
 					C086C489200B3404003AF4EA = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = PGNG7584J8;
@@ -4885,6 +4936,7 @@
 				C010704C205184110058DD4B /* 90-SubsetsII */,
 				C0A4F8FE2052790B009DF40F /* 91-DecodeWays */,
 				C0335E17205408B40057BFC6 /* 92-ReverseLinkedListII */,
+				C084492A20553B690090A393 /* 93-RestoreIPAddresses */,
 			);
 		};
 /* End PBXProject section */
@@ -5310,6 +5362,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0844588201A325700436CCA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C084492720553B690090A393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C084492E20553B690090A393 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6680,6 +6740,24 @@
 			};
 			name = Release;
 		};
+		C084492F20553B690090A393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C084493020553B690090A393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		C086C48E200B3404003AF4EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -7482,6 +7560,7 @@
 				C0335E1D205408B40057BFC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C034E96D1F91BDFF00D19AE6 /* Build configuration list for PBXProject "LeetCode" */ = {
 			isa = XCConfigurationList;
@@ -7887,6 +7966,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C084493120553B690090A393 /* Build configuration list for PBXNativeTarget "93-RestoreIPAddresses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C084492F20553B690090A393 /* Debug */,
+				C084493020553B690090A393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		C086C490200B3404003AF4EA /* Build configuration list for PBXNativeTarget "52-N-QueensII" */ = {
 			isa = XCConfigurationList;
