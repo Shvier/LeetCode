@@ -479,6 +479,11 @@
 			<key>orderHint</key>
 			<integer>94</integer>
 		</dict>
+		<key>96-UniqueBinarySearchTrees.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>95</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -968,6 +973,11 @@
 			<true/>
 		</dict>
 		<key>C0FB80222056791100DADB06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0FB802D20567D0600DADB06</key>
 		<dict>
 			<key>primary</key>
 			<true/>
