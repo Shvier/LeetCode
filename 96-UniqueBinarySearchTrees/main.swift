@@ -11,6 +11,9 @@ import Foundation
 class Solution {
     
     func numTrees(_ n: Int) -> Int {
+        if n <= 1 {
+            return 1
+        }
         var ans = Array(repeating: 0, count: n+1)
         ans[0] = 1
         ans[1] = 1
