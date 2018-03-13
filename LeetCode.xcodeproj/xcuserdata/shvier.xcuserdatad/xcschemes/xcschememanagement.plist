@@ -484,6 +484,11 @@
 			<key>orderHint</key>
 			<integer>95</integer>
 		</dict>
+		<key>97-InterleavingString.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>96</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -978,6 +983,11 @@
 			<true/>
 		</dict>
 		<key>C0FB802D20567D0600DADB06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0FB80382056C55C00DADB06</key>
 		<dict>
 			<key>primary</key>
 			<true/>
