@@ -489,6 +489,11 @@
 			<key>orderHint</key>
 			<integer>96</integer>
 		</dict>
+		<key>98-ValidateBinarySearchTree.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>97</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -848,6 +853,11 @@
 			<true/>
 		</dict>
 		<key>C0A4F8FE2052790B009DF40F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0A7B8B92057858A0020420C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
