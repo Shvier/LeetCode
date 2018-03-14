@@ -23,32 +23,15 @@ public class TreeNode {
 class Solution {
     
     func isValidBST(_ root: TreeNode?) -> Bool {
-        if root == nil {
-            return false
-        }
-        var ans = true
-        return check(&ans, root)
+        return checkTree(root, Int.min, Int.max)
     }
     
-    func check(_ ans: inout Bool, _ root: TreeNode?) -> Bool {
-        if root?.left == nil && root?.right == nil {
-            return true
-        } else if root?.left != nil && root?.right == nil {
-            if (root?.left?.val)! < (root?.val)! {
-                ans = ans && check(&ans, root?.left)
-            } else {
-                return false
-            }
-        } else if root?.left != nil && root?.right == nil {
-            if (root?.right?.val)! > (root?.val)! {
-                ans = ans && check(&ans, root?.right)
-            } else {
-                return false
-            }
-        } else if root?.left != nil && root?.right != nil {
-            ans = check(&ans, root?.left) && check(&ans, root?.right)
+    func checkTree(_ root: TreeNode?, _ minValue: Int, _ maxValue: Int) -> Bool {
+        guard let newRoot = root else { return true }
+        if newRoot.val >= maxValue || newRoot.val <= minValue {
+            return false
         }
-        return ans
+        return checkTree(newRoot.left, minValue, newRoot.val) && checkTree(newRoot.right, newRoot.val, maxValue)
     }
     
 }
