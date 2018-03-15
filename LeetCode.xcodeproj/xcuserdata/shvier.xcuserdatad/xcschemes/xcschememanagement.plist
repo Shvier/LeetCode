@@ -494,6 +494,11 @@
 			<key>orderHint</key>
 			<integer>97</integer>
 		</dict>
+		<key>99-RecoverBinarySearchTree.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>98</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -663,6 +668,11 @@
 			<true/>
 		</dict>
 		<key>C057B6932041B09A008DAEE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C05A75B12059764000214B45</key>
 		<dict>
 			<key>primary</key>
 			<true/>
