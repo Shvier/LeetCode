@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>100-SameTree.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>99</integer>
+		</dict>
 		<key>11-ContainerWithMostWater.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -538,6 +543,11 @@
 			<true/>
 		</dict>
 		<key>C02A41251FB5FCFA003EBC18</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C02F8BFC205BCF0300AD5299</key>
 		<dict>
 			<key>primary</key>
 			<true/>
