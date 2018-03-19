@@ -36,7 +36,7 @@ class Solution {
                     }
                     p2 = cur
                 }
-                temp = root
+                temp = cur
                 cur = cur?.right
             } else {
                 prev = cur?.left
@@ -53,7 +53,7 @@ class Solution {
                         }
                         p2 = cur
                     }
-                    temp = root
+                    temp = cur
                     prev?.right = nil
                     cur = cur?.right
                 }
@@ -67,3 +67,9 @@ class Solution {
     }
     
 }
+
+let node1 = TreeNode.init(0)
+let node2 = TreeNode.init(1)
+node1.left = node2
+let solution = Solution()
+solution.recoverTree(node1)
