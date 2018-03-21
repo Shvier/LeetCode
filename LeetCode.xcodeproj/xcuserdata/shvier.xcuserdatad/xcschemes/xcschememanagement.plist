@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>100</integer>
 		</dict>
+		<key>102-BinaryTreeLevelOrderTraversal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>101</integer>
+		</dict>
 		<key>11-ContainerWithMostWater.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -698,6 +703,11 @@
 			<true/>
 		</dict>
 		<key>C05DBFED1FDEE2FD009423DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C05FA42020600F9A00AB4130</key>
 		<dict>
 			<key>primary</key>
 			<true/>
