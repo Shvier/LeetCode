@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>102</integer>
 		</dict>
+		<key>104-MaximumDepthofBinaryTree.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>103</integer>
+		</dict>
 		<key>11-ContainerWithMostWater.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -908,6 +913,11 @@
 			<true/>
 		</dict>
 		<key>C0A7D33B2064F2750048BFCE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0A7D346206501520048BFCE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
