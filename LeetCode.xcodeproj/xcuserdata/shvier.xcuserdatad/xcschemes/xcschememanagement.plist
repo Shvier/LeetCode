@@ -39,6 +39,11 @@
 			<key>orderHint</key>
 			<integer>103</integer>
 		</dict>
+		<key>105-ConstructBinaryTreefromPreorderandInorderTraversal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>104</integer>
+		</dict>
 		<key>11-ContainerWithMostWater.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -818,6 +823,11 @@
 			<true/>
 		</dict>
 		<key>C086C489200B3404003AF4EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C08B25FE206928ED00D72C0F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
