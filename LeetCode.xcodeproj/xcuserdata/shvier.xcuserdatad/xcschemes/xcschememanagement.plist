@@ -54,6 +54,11 @@
 			<key>orderHint</key>
 			<integer>106</integer>
 		</dict>
+		<key>108-ConvertSortedArraytoBinarySearchTree.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>107</integer>
+		</dict>
 		<key>11-ContainerWithMostWater.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -853,6 +858,11 @@
 			<true/>
 		</dict>
 		<key>C097DCEF200667AD005355CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C099194C206BDB00005FB5FE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
