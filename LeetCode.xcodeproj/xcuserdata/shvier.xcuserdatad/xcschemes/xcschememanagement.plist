@@ -69,6 +69,11 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>110-BalancedBinaryTree.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>109</integer>
+		</dict>
 		<key>12-IntegertoRoman.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -748,6 +753,11 @@
 			<true/>
 		</dict>
 		<key>C0602D4F200E3BA000E8B363</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0625B98206D278500754E90</key>
 		<dict>
 			<key>primary</key>
 			<true/>
