@@ -74,6 +74,11 @@
 			<key>orderHint</key>
 			<integer>109</integer>
 		</dict>
+		<key>111-MinimumDepthofBinaryTree.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>110</integer>
+		</dict>
 		<key>12-IntegertoRoman.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -813,6 +818,11 @@
 			<true/>
 		</dict>
 		<key>C07D63531FCD4B9900AB92D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C07E690E206D3368009DC079</key>
 		<dict>
 			<key>primary</key>
 			<true/>
