@@ -79,6 +79,11 @@
 			<key>orderHint</key>
 			<integer>110</integer>
 		</dict>
+		<key>112-PathSum.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>111</integer>
+		</dict>
 		<key>12-IntegertoRoman.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -663,6 +668,11 @@
 			<true/>
 		</dict>
 		<key>C03A65AF20244E140072BB6E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C03C97E4206E1F460040AA44</key>
 		<dict>
 			<key>primary</key>
 			<true/>
