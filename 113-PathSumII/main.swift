@@ -34,8 +34,10 @@ class Solution {
             return
         }
         temp.append(root!.val)
-        if sum - root!.val == 0 {
+        if root?.left == nil && root?.right == nil && sum == root!.val {
             ans.append(temp)
+            temp.removeLast()
+            return
         }
         searchPath(&ans, &temp, root?.left, sum - root!.val)
         searchPath(&ans, &temp, root?.right, sum - root!.val)
