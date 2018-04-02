@@ -30,14 +30,13 @@ class Solution {
     }
     
     func searchPath(_ ans: inout [[Int]], _ temp: inout [Int], _ root: TreeNode?, _ sum: Int) {
-        if sum == 0 {
-            ans.append(temp)
-            return
-        }
         if root == nil {
             return
         }
         temp.append(root!.val)
+        if sum - root!.val == 0 {
+            ans.append(temp)
+        }
         searchPath(&ans, &temp, root?.left, sum - root!.val)
         searchPath(&ans, &temp, root?.right, sum - root!.val)
         temp.removeLast()
