@@ -89,6 +89,11 @@
 			<key>orderHint</key>
 			<integer>112</integer>
 		</dict>
+		<key>114-FlattenBinaryTreetoLinkedList.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>113</integer>
+		</dict>
 		<key>12-IntegertoRoman.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -798,6 +803,11 @@
 			<true/>
 		</dict>
 		<key>C06827331FA1DB9C004CDD41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C06A1C292072729A00CAEA03</key>
 		<dict>
 			<key>primary</key>
 			<true/>
