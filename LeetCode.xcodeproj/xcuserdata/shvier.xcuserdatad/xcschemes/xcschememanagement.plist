@@ -94,6 +94,11 @@
 			<key>orderHint</key>
 			<integer>113</integer>
 		</dict>
+		<key>115-DistinctSubsequences.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>114</integer>
+		</dict>
 		<key>12-IntegertoRoman.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -1108,6 +1113,11 @@
 			<true/>
 		</dict>
 		<key>C0DA0E171FC5697E00AB0275</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0E106B82073D270007B62DE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
