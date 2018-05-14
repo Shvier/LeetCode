@@ -99,6 +99,11 @@
 			<key>orderHint</key>
 			<integer>114</integer>
 		</dict>
+		<key>118-Pascal'sTriangle.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>116</integer>
+		</dict>
 		<key>12-IntegertoRoman.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -1083,6 +1088,11 @@
 			<true/>
 		</dict>
 		<key>C0CFF85D203BB115007FEE7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0D171EF20A9D3B400CD5ECC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
