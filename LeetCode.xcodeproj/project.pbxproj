@@ -106,6 +106,7 @@
 		C0CB30D72018CC30009527A4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CB30D62018CC30009527A4 /* main.swift */; };
 		C0CFF861203BB115007FEE7A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CFF860203BB115007FEE7A /* main.swift */; };
 		C0D171F320A9D3B400CD5ECC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D171F220A9D3B400CD5ECC /* main.swift */; };
+		C0D171FE20A9D7B800CD5ECC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D171FD20A9D7B800CD5ECC /* main.swift */; };
 		C0D27D2E1F98F8B50025F343 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D27D2D1F98F8B50025F343 /* main.swift */; };
 		C0D7BCFE1FC6C1C900CD6B85 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D7BCFD1FC6C1C900CD6B85 /* main.swift */; };
 		C0D7BD091FC6C85900CD6B85 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D7BD081FC6C85900CD6B85 /* main.swift */; };
@@ -1026,6 +1027,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		C0D171F920A9D7B800CD5ECC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		C0D27D291F98F8B50025F343 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1381,6 +1391,8 @@
 		C0CFF860203BB115007FEE7A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C0D171F020A9D3B400CD5ECC /* 118-Pascal'sTriangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "118-Pascal'sTriangle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D171F220A9D3B400CD5ECC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C0D171FB20A9D7B800CD5ECC /* 119-Pascal'sTriangleII */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "119-Pascal'sTriangleII"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D171FD20A9D7B800CD5ECC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C0D27D2B1F98F8B50025F343 /* 8-StringtoInteger(atoi) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8-StringtoInteger(atoi)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D27D2D1F98F8B50025F343 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C0D7BCFB1FC6C1C900CD6B85 /* 24-SwapNodesinPairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "24-SwapNodesinPairs"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2118,6 +2130,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C0D171F820A9D7B800CD5ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0D27D281F98F8B50025F343 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2439,6 +2458,7 @@
 				C06A1C2B2072729B00CAEA03 /* 114-FlattenBinaryTreetoLinkedList */,
 				C0E106BA2073D270007B62DE /* 115-DistinctSubsequences */,
 				C0D171F120A9D3B400CD5ECC /* 118-Pascal'sTriangle */,
+				C0D171FC20A9D7B800CD5ECC /* 119-Pascal'sTriangleII */,
 				C034E9731F91BDFF00D19AE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2563,6 +2583,7 @@
 				C06A1C2A2072729A00CAEA03 /* 114-FlattenBinaryTreetoLinkedList */,
 				C0E106B92073D270007B62DE /* 115-DistinctSubsequences */,
 				C0D171F020A9D3B400CD5ECC /* 118-Pascal'sTriangle */,
+				C0D171FB20A9D7B800CD5ECC /* 119-Pascal'sTriangleII */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3277,6 +3298,14 @@
 				C0D171F220A9D3B400CD5ECC /* main.swift */,
 			);
 			path = "118-Pascal'sTriangle";
+			sourceTree = "<group>";
+		};
+		C0D171FC20A9D7B800CD5ECC /* 119-Pascal'sTriangleII */ = {
+			isa = PBXGroup;
+			children = (
+				C0D171FD20A9D7B800CD5ECC /* main.swift */,
+			);
+			path = "119-Pascal'sTriangleII";
 			sourceTree = "<group>";
 		};
 		C0D27D2C1F98F8B50025F343 /* 8-StringtoInteger(atoi) */ = {
@@ -5118,6 +5147,23 @@
 			productReference = C0D171F020A9D3B400CD5ECC /* 118-Pascal'sTriangle */;
 			productType = "com.apple.product-type.tool";
 		};
+		C0D171FA20A9D7B800CD5ECC /* 119-Pascal'sTriangleII */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D171FF20A9D7B800CD5ECC /* Build configuration list for PBXNativeTarget "119-Pascal'sTriangleII" */;
+			buildPhases = (
+				C0D171F720A9D7B800CD5ECC /* Sources */,
+				C0D171F820A9D7B800CD5ECC /* Frameworks */,
+				C0D171F920A9D7B800CD5ECC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "119-Pascal'sTriangleII";
+			productName = "119-Pascal'sTriangleII";
+			productReference = C0D171FB20A9D7B800CD5ECC /* 119-Pascal'sTriangleII */;
+			productType = "com.apple.product-type.tool";
+		};
 		C0D27D2A1F98F8B50025F343 /* 8-StringtoInteger(atoi) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0D27D311F98F8B50025F343 /* Build configuration list for PBXNativeTarget "8-StringtoInteger(atoi)" */;
@@ -5918,6 +5964,11 @@
 						DevelopmentTeam = PGNG7584J8;
 						ProvisioningStyle = Automatic;
 					};
+					C0D171FA20A9D7B800CD5ECC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PGNG7584J8;
+						ProvisioningStyle = Automatic;
+					};
 					C0D27D2A1F98F8B50025F343 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = PGNG7584J8;
@@ -6134,6 +6185,7 @@
 				C06A1C292072729A00CAEA03 /* 114-FlattenBinaryTreetoLinkedList */,
 				C0E106B82073D270007B62DE /* 115-DistinctSubsequences */,
 				C0D171EF20A9D3B400CD5ECC /* 118-Pascal'sTriangle */,
+				C0D171FA20A9D7B800CD5ECC /* 119-Pascal'sTriangleII */,
 			);
 		};
 /* End PBXProject section */
@@ -6935,6 +6987,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0D171F320A9D3B400CD5ECC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D171F720A9D7B800CD5ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D171FE20A9D7B800CD5ECC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8972,6 +9032,24 @@
 			};
 			name = Release;
 		};
+		C0D1720020A9D7B800CD5ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C0D1720120A9D7B800CD5ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		C0D27D2F1F98F8B50025F343 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -10186,6 +10264,14 @@
 			buildConfigurations = (
 				C0D171F420A9D3B400CD5ECC /* Debug */,
 				C0D171F520A9D3B400CD5ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0D171FF20A9D7B800CD5ECC /* Build configuration list for PBXNativeTarget "119-Pascal'sTriangleII" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D1720020A9D7B800CD5ECC /* Debug */,
+				C0D1720120A9D7B800CD5ECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
