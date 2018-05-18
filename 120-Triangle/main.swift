@@ -12,21 +12,13 @@ class Solution {
     
     func minimumTotal(_ triangle: [[Int]]) -> Int {
         let row = triangle.count
-        if row < 1 {
-            return 0
-        }
-        var dp = Array(repeating: 0, count: row)
-        dp[0] = triangle[0][0]
-        for i in 1..<row {
+        var dp = Array(repeating: 0, count: row+1)
+        for i in (0..<row).reversed() {
             for j in 0..<triangle[i].count {
-                if j == 0 {
-                    dp[i] = triangle[i][j] + dp[i-1]
-                } else {
-                    dp[i] = min(dp[i], triangle[i][j]+dp[i-1], triangle[i][j-1]+dp[i-1])
-                }
+                dp[j] = triangle[i][j] + min(dp[j], dp[j+1])
             }
         }
-        return dp[row-1]
+        return dp[0]
     }
     
 }
