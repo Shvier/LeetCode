@@ -119,6 +119,7 @@
 		C0E6D0351F91FF81006905FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E6D0341F91FF81006905FD /* main.swift */; };
 		C0EE9F221FF63FE50052308C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE9F211FF63FE50052308C /* main.swift */; };
 		C0F46427201203A300F1BCDD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F46426201203A300F1BCDD /* main.swift */; };
+		C0FA22EB20AF1965005075B7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FA22EA20AF1965005075B7 /* main.swift */; };
 		C0FB80262056791100DADB06 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB80252056791100DADB06 /* main.swift */; };
 		C0FB803120567D0600DADB06 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB803020567D0600DADB06 /* main.swift */; };
 		C0FB803C2056C55C00DADB06 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FB803B2056C55C00DADB06 /* main.swift */; };
@@ -1144,6 +1145,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		C0FA22E620AF1965005075B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		C0FB80212056791100DADB06 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1417,6 +1427,8 @@
 		C0EE9F211FF63FE50052308C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C0F46424201203A300F1BCDD /* 55-JumpGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "55-JumpGame"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F46426201203A300F1BCDD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C0FA22E820AF1965005075B7 /* 120-Triangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "120-Triangle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FA22EA20AF1965005075B7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C0FB80232056791100DADB06 /* 95-UniqueBinarySearchTreesII */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "95-UniqueBinarySearchTreesII"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FB80252056791100DADB06 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C0FB802E20567D0600DADB06 /* 96-UniqueBinarySearchTrees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "96-UniqueBinarySearchTrees"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2221,6 +2233,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C0FA22E520AF1965005075B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0FB80202056791100DADB06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2459,6 +2478,7 @@
 				C0E106BA2073D270007B62DE /* 115-DistinctSubsequences */,
 				C0D171F120A9D3B400CD5ECC /* 118-Pascal'sTriangle */,
 				C0D171FC20A9D7B800CD5ECC /* 119-Pascal'sTriangleII */,
+				C0FA22E920AF1965005075B7 /* 120-Triangle */,
 				C034E9731F91BDFF00D19AE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2584,6 +2604,7 @@
 				C0E106B92073D270007B62DE /* 115-DistinctSubsequences */,
 				C0D171F020A9D3B400CD5ECC /* 118-Pascal'sTriangle */,
 				C0D171FB20A9D7B800CD5ECC /* 119-Pascal'sTriangleII */,
+				C0FA22E820AF1965005075B7 /* 120-Triangle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3402,6 +3423,14 @@
 				C0F46426201203A300F1BCDD /* main.swift */,
 			);
 			path = "55-JumpGame";
+			sourceTree = "<group>";
+		};
+		C0FA22E920AF1965005075B7 /* 120-Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				C0FA22EA20AF1965005075B7 /* main.swift */,
+			);
+			path = "120-Triangle";
 			sourceTree = "<group>";
 		};
 		C0FB80242056791100DADB06 /* 95-UniqueBinarySearchTreesII */ = {
@@ -5368,6 +5397,23 @@
 			productReference = C0F46424201203A300F1BCDD /* 55-JumpGame */;
 			productType = "com.apple.product-type.tool";
 		};
+		C0FA22E720AF1965005075B7 /* 120-Triangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FA22EE20AF1965005075B7 /* Build configuration list for PBXNativeTarget "120-Triangle" */;
+			buildPhases = (
+				C0FA22E420AF1965005075B7 /* Sources */,
+				C0FA22E520AF1965005075B7 /* Frameworks */,
+				C0FA22E620AF1965005075B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "120-Triangle";
+			productName = "120-Triangle";
+			productReference = C0FA22E820AF1965005075B7 /* 120-Triangle */;
+			productType = "com.apple.product-type.tool";
+		};
 		C0FB80222056791100DADB06 /* 95-UniqueBinarySearchTreesII */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0FB80292056791100DADB06 /* Build configuration list for PBXNativeTarget "95-UniqueBinarySearchTreesII" */;
@@ -6029,6 +6075,11 @@
 						DevelopmentTeam = PGNG7584J8;
 						ProvisioningStyle = Automatic;
 					};
+					C0FA22E720AF1965005075B7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PGNG7584J8;
+						ProvisioningStyle = Automatic;
+					};
 					C0FB80222056791100DADB06 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = PGNG7584J8;
@@ -6186,6 +6237,7 @@
 				C0E106B82073D270007B62DE /* 115-DistinctSubsequences */,
 				C0D171EF20A9D3B400CD5ECC /* 118-Pascal'sTriangle */,
 				C0D171FA20A9D7B800CD5ECC /* 119-Pascal'sTriangleII */,
+				C0FA22E720AF1965005075B7 /* 120-Triangle */,
 			);
 		};
 /* End PBXProject section */
@@ -7091,6 +7143,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0F46427201203A300F1BCDD /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FA22E420AF1965005075B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FA22EB20AF1965005075B7 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -9266,6 +9326,24 @@
 			};
 			name = Release;
 		};
+		C0FA22EC20AF1965005075B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C0FA22ED20AF1965005075B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		C0FB80272056791100DADB06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -10266,6 +10344,7 @@
 				C0D171F520A9D3B400CD5ECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0D171FF20A9D7B800CD5ECC /* Build configuration list for PBXNativeTarget "119-Pascal'sTriangleII" */ = {
 			isa = XCConfigurationList;
@@ -10274,6 +10353,7 @@
 				C0D1720120A9D7B800CD5ECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0D27D311F98F8B50025F343 /* Build configuration list for PBXNativeTarget "8-StringtoInteger(atoi)" */ = {
 			isa = XCConfigurationList;
@@ -10382,6 +10462,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C0FA22EE20AF1965005075B7 /* Build configuration list for PBXNativeTarget "120-Triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FA22EC20AF1965005075B7 /* Debug */,
+				C0FA22ED20AF1965005075B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		C0FB80292056791100DADB06 /* Build configuration list for PBXNativeTarget "95-UniqueBinarySearchTreesII" */ = {
 			isa = XCConfigurationList;

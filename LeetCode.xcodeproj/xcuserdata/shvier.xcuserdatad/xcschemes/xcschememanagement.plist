@@ -114,6 +114,11 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>120-Triangle.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>117</integer>
+		</dict>
 		<key>13-RomantoInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -1173,6 +1178,11 @@
 			<true/>
 		</dict>
 		<key>C0F46423201203A300F1BCDD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0FA22E720AF1965005075B7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
