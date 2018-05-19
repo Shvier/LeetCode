@@ -42,6 +42,7 @@
 		C05402321FCBFDE700F70BF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05402311FCBFDE700F70BF1 /* main.swift */; };
 		C0546E49202B46840043096A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0546E48202B46840043096A /* main.swift */; };
 		C0546E54202B50AD0043096A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0546E53202B50AD0043096A /* main.swift */; };
+		C05476F820B06C600050CC7D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05476F720B06C600050CC7D /* main.swift */; };
 		C057B6972041B09B008DAEE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C057B6962041B09B008DAEE3 /* main.swift */; };
 		C05A75B52059764000214B45 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A75B42059764000214B45 /* main.swift */; };
 		C05B1E4620038EC900F0A4E6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B1E4520038EC900F0A4E6 /* main.swift */; };
@@ -444,6 +445,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		C0546E4F202B50AD0043096A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C05476F320B06C600050CC7D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1273,6 +1283,8 @@
 		C0546E48202B46840043096A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C0546E51202B50AD0043096A /* 76-MinimumWindowSubstring */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "76-MinimumWindowSubstring"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0546E53202B50AD0043096A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C05476F520B06C600050CC7D /* 121-BestTimetoBuyandSellStock */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "121-BestTimetoBuyandSellStock"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05476F720B06C600050CC7D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C057B6942041B09A008DAEE3 /* 85-MaximalRectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "85-MaximalRectangle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C057B6962041B09B008DAEE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C05A75B22059764000214B45 /* 99-RecoverBinarySearchTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "99-RecoverBinarySearchTree"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1688,6 +1700,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C0546E4E202B50AD0043096A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05476F220B06C600050CC7D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2479,6 +2498,7 @@
 				C0D171F120A9D3B400CD5ECC /* 118-Pascal'sTriangle */,
 				C0D171FC20A9D7B800CD5ECC /* 119-Pascal'sTriangleII */,
 				C0FA22E920AF1965005075B7 /* 120-Triangle */,
+				C05476F620B06C600050CC7D /* 121-BestTimetoBuyandSellStock */,
 				C034E9731F91BDFF00D19AE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2605,6 +2625,7 @@
 				C0D171F020A9D3B400CD5ECC /* 118-Pascal'sTriangle */,
 				C0D171FB20A9D7B800CD5ECC /* 119-Pascal'sTriangleII */,
 				C0FA22E820AF1965005075B7 /* 120-Triangle */,
+				C05476F520B06C600050CC7D /* 121-BestTimetoBuyandSellStock */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2807,6 +2828,14 @@
 				C0546E53202B50AD0043096A /* main.swift */,
 			);
 			path = "76-MinimumWindowSubstring";
+			sourceTree = "<group>";
+		};
+		C05476F620B06C600050CC7D /* 121-BestTimetoBuyandSellStock */ = {
+			isa = PBXGroup;
+			children = (
+				C05476F720B06C600050CC7D /* main.swift */,
+			);
+			path = "121-BestTimetoBuyandSellStock";
 			sourceTree = "<group>";
 		};
 		C057B6952041B09B008DAEE3 /* 85-MaximalRectangle */ = {
@@ -4086,6 +4115,23 @@
 			name = "76-MinimumWindowSubstring";
 			productName = "76-MinimumWindowSubstring";
 			productReference = C0546E51202B50AD0043096A /* 76-MinimumWindowSubstring */;
+			productType = "com.apple.product-type.tool";
+		};
+		C05476F420B06C600050CC7D /* 121-BestTimetoBuyandSellStock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05476FB20B06C600050CC7D /* Build configuration list for PBXNativeTarget "121-BestTimetoBuyandSellStock" */;
+			buildPhases = (
+				C05476F120B06C600050CC7D /* Sources */,
+				C05476F220B06C600050CC7D /* Frameworks */,
+				C05476F320B06C600050CC7D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "121-BestTimetoBuyandSellStock";
+			productName = "121-BestTimetoBuyandSellStock";
+			productReference = C05476F520B06C600050CC7D /* 121-BestTimetoBuyandSellStock */;
 			productType = "com.apple.product-type.tool";
 		};
 		C057B6932041B09A008DAEE3 /* 85-MaximalRectangle */ = {
@@ -5690,6 +5736,11 @@
 						DevelopmentTeam = PGNG7584J8;
 						ProvisioningStyle = Automatic;
 					};
+					C05476F420B06C600050CC7D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PGNG7584J8;
+						ProvisioningStyle = Automatic;
+					};
 					C057B6932041B09A008DAEE3 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = PGNG7584J8;
@@ -6238,6 +6289,7 @@
 				C0D171EF20A9D3B400CD5ECC /* 118-Pascal'sTriangle */,
 				C0D171FA20A9D7B800CD5ECC /* 119-Pascal'sTriangleII */,
 				C0FA22E720AF1965005075B7 /* 120-Triangle */,
+				C05476F420B06C600050CC7D /* 121-BestTimetoBuyandSellStock */,
 			);
 		};
 /* End PBXProject section */
@@ -6527,6 +6579,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0546E54202B50AD0043096A /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05476F120B06C600050CC7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05476F820B06C600050CC7D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7932,6 +7992,24 @@
 			name = Debug;
 		};
 		C0546E57202B50AD0043096A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C05476F920B06C600050CC7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PGNG7584J8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C05476FA20B06C600050CC7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = PGNG7584J8;
@@ -9770,6 +9848,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		C05476FB20B06C600050CC7D /* Build configuration list for PBXNativeTarget "121-BestTimetoBuyandSellStock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05476F920B06C600050CC7D /* Debug */,
+				C05476FA20B06C600050CC7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C057B69A2041B09B008DAEE3 /* Build configuration list for PBXNativeTarget "85-MaximalRectangle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -10470,6 +10556,7 @@
 				C0FA22ED20AF1965005075B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0FB80292056791100DADB06 /* Build configuration list for PBXNativeTarget "95-UniqueBinarySearchTreesII" */ = {
 			isa = XCConfigurationList;
