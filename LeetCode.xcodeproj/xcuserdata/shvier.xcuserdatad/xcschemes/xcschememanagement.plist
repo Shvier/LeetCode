@@ -124,6 +124,11 @@
 			<key>orderHint</key>
 			<integer>118</integer>
 		</dict>
+		<key>122-BestTimetoBuyandSellStockII.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>119</integer>
+		</dict>
 		<key>13-RomantoInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -603,6 +608,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>C000626F1FE964B100F50061</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C000760720B19B4400843CD8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
