@@ -139,6 +139,11 @@
 			<key>orderHint</key>
 			<integer>121</integer>
 		</dict>
+		<key>125-ValidPalindrome.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>122</integer>
+		</dict>
 		<key>13-RomantoInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -808,6 +813,11 @@
 			<true/>
 		</dict>
 		<key>C057B6932041B09A008DAEE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C058DAC720B5B92900BAC1B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
