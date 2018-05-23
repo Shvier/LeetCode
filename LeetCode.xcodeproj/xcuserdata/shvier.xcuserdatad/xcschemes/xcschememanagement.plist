@@ -134,6 +134,11 @@
 			<key>orderHint</key>
 			<integer>120</integer>
 		</dict>
+		<key>124-BinaryTreeMaximumPathSum.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>121</integer>
+		</dict>
 		<key>13-RomantoInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -853,6 +858,11 @@
 			<true/>
 		</dict>
 		<key>C069F68420B459940083D446</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C069F68F20B469B60083D446</key>
 		<dict>
 			<key>primary</key>
 			<true/>
