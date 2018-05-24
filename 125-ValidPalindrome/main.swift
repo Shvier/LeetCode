@@ -17,25 +17,21 @@ class Solution {
         }
         var l = 0
         var r = characters.count-1
-        let regularExpression = try? NSRegularExpression(pattern: "[A-Za-z]", options: .caseInsensitive)
+        var stringLength = characters.count
+        let regularExpression = try? NSRegularExpression(pattern: "[A-Za-z0-9]", options: .caseInsensitive)
         while l != r && l <= r {
             let lMatchCount = regularExpression!.numberOfMatches(in: String(characters[l]), options: .reportProgress, range: NSMakeRange(0, 1))
             if lMatchCount < 1 {
-                if l + 1 == r {
-                    break
-                }
                 l = l + 1
+                stringLength -= 1
                 continue
             }
             let rMatchCount = regularExpression!.numberOfMatches(in: String(characters[r]), options: .reportProgress, range: NSMakeRange(0, 1))
             if rMatchCount < 1 {
-                if r - 1 == l {
-                    break
-                }
                 r = r - 1
+                stringLength -= 1
                 continue
             }
-            print("\(characters[l]) - \(characters[r])")
             let compareResult = String(characters[l]).caseInsensitiveCompare(String(characters[r]))
             if compareResult != .orderedSame {
                 return false
@@ -43,8 +39,7 @@ class Solution {
             l = l + 1
             r = r - 1
         }
-        let compareResult = String(characters[l]).caseInsensitiveCompare(String(characters[r]))
-        return compareResult == .orderedSame
+        return true
     }
     
 }
