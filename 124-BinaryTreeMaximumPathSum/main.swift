@@ -24,7 +24,8 @@ class Solution {
     
     func maxPathSum(_ root: TreeNode?) -> Int {
         var maxValue = Int.min
-        return maxPathDown(root, &maxValue)
+        maxPathDown(root, &maxValue)
+        return maxValue
     }
     
     func maxPathDown(_ root: TreeNode?, _ maxValue: inout Int) -> Int {
