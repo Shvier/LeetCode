@@ -149,6 +149,11 @@
 			<key>orderHint</key>
 			<integer>123</integer>
 		</dict>
+		<key>127-WordLadder.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>124</integer>
+		</dict>
 		<key>13-RomantoInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -988,6 +993,11 @@
 			<true/>
 		</dict>
 		<key>C097DCEF200667AD005355CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0990CBA20B9875400061B58</key>
 		<dict>
 			<key>primary</key>
 			<true/>
