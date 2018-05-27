@@ -11,63 +11,64 @@ import Foundation
 class Solution {
     
     func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> Int {
-        if !wordList.contains(endWord) {
-            return 0
+        if beginWord == endWord {
+            return 1
         }
-        var ans = Int.max
-        var visited = [String: Bool]()
-        var temp = [String]()
-        var steps = [Int]()
-        temp.append(beginWord)
-        steps.append(1)
-        let startingValue = Int(("a" as UnicodeScalar).value)
-        while !temp.isEmpty {
-            let currentWord = temp.popLast()!
-            let currentStep = steps.popLast()!
-            let countOfDiff = canTransform(currentWord, endWord)
-            if countOfDiff < 2 {
-                ans = min(countOfDiff + currentStep, ans)
-            }
-            var currentCharacters = [Character](currentWord.characters)
-            for i in 0..<currentCharacters.count {
-                let currentChar = currentCharacters[i]
-                for j in 0..<26 {
-                    let characterAtJ = Character(UnicodeScalar(j + startingValue)!)
-                    if currentChar == characterAtJ {
+        var dict = Set<String>()
+        for word in wordList {
+            dict.insert(word)
+        }
+        var visited = Set<String>()
+        var list = [String]()
+        visited.insert(beginWord)
+        list.append(beginWord)
+        var length = 1
+        while !list.isEmpty {
+            length = length + 1
+            let count = list.count
+            print("length: \(length) - count: \(count)")
+            for _ in 0..<count {
+                let word = list.removeFirst()
+                let nextWords = getNextWords(word, dict)
+                print("word: \(word)\nnextWords: \(nextWords)")
+                for nextWord in nextWords {
+                    if visited.contains(nextWord) {
                         continue
                     }
-                    currentCharacters[i] = characterAtJ
-                    let nextString = String(currentCharacters)
-                    if wordList.contains(nextString) &&
-                        ((visited.keys.contains(nextString) && !visited[nextString]!) || !visited.keys.contains(nextString)){
-                        visited.updateValue(true, forKey: nextString)
-                        temp.append(nextString)
-                        steps.append(currentStep + 1)
+                    if nextWord == endWord {
+                        return length
                     }
-                    currentCharacters[i] = currentChar
+                    visited.insert(nextWord)
+                    list.append(nextWord)
                 }
             }
         }
-        return ans == Int.max ? 0 : ans
+        return 0
     }
     
-    func canTransform(_ string1: String, _ string2: String) -> Int {
-        let characters1 = [Character](string1.characters)
-        let characters2 = [Character](string2.characters)
-        let count = characters1.count
-        var countOfDifference = 0
-        for index in 0..<count {
-            if characters1[index] != characters2[index] {
-                countOfDifference = countOfDifference + 1
-            }
-            if countOfDifference > 1 {
-                break
+    func getNextWords(_ word: String, _ dict: Set<String>) -> [String] {
+        var nextWords = [String]()
+        let startingLetter = Int(("a" as UnicodeScalar).value)
+        var characters = [Character](word.characters)
+        for i in 0..<characters.count {
+            let currentChar = characters[i]
+            for j in 0..<26 {
+                let letter = Character(UnicodeScalar(j + startingLetter)!)
+                if currentChar == letter {
+                    continue
+                }
+                characters[i] = letter
+                let nextString = String(characters)
+                if dict.contains(nextString) {
+                    nextWords.append(nextString)
+                }
+                characters[i] = currentChar
             }
         }
-        return countOfDifference
+        return nextWords
     }
     
 }
 
 let solution = Solution()
-print(solution.ladderLength("qa", "sq", ["si","go","se","cm","so","ph","mt","db","mb","sb","kr","ln","tm","le","av","sm","ar","ci","ca","br","ti","ba","to","ra","fa","yo","ow","sn","ya","cr","po","fe","ho","ma","re","or","rn","au","ur","rh","sr","tc","lt","lo","as","fr","nb","yb","if","pb","ge","th","pm","rb","sh","co","ga","li","ha","hz","no","bi","di","hi","qa","pi","os","uh","wm","an","me","mo","na","la","st","er","sc","ne","mn","mi","am","ex","pt","io","be","fm","ta","tb","ni","mr","pa","he","lr","sq","ye"]))
+print(solution.ladderLength("hit", "cog", ["hot","dot","dog","lot","log","cog"]))
