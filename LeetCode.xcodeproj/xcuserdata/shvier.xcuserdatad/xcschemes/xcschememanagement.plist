@@ -159,6 +159,11 @@
 			<key>orderHint</key>
 			<integer>125</integer>
 		</dict>
+		<key>129-SumRoottoLeafNumbers.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>126</integer>
+		</dict>
 		<key>13-RomantoInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -643,6 +648,11 @@
 			<true/>
 		</dict>
 		<key>C000760720B19B4400843CD8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C008BD9920BD978C00B0C654</key>
 		<dict>
 			<key>primary</key>
 			<true/>
