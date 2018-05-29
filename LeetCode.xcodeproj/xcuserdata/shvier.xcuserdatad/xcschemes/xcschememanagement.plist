@@ -154,6 +154,11 @@
 			<key>orderHint</key>
 			<integer>124</integer>
 		</dict>
+		<key>128-LongestConsecutiveSequence.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>125</integer>
+		</dict>
 		<key>13-RomantoInteger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -888,6 +893,11 @@
 			<true/>
 		</dict>
 		<key>C06A1C292072729A00CAEA03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C06A425B20BC4E41009C5102</key>
 		<dict>
 			<key>primary</key>
 			<true/>
