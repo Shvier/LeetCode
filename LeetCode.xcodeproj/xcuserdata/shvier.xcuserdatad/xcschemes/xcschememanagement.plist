@@ -169,6 +169,11 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>130-SurroundedRegions.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>127</integer>
+		</dict>
 		<key>14-LongestCommonPrefix.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -688,6 +693,11 @@
 			<true/>
 		</dict>
 		<key>C02A41251FB5FCFA003EBC18</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C02BC19C20BEA88E00176680</key>
 		<dict>
 			<key>primary</key>
 			<true/>
