@@ -2602,8 +2602,6 @@
 		C034E9691F91BDFF00D19AE6 = {
 			isa = PBXGroup;
 			children = (
-				C00A7CA11FCEC9D9002152E7 /* 35-SearchInsertPosition */,
-				C07889C41FD29DF800C10F3D /* 31-NextPermutation */,
 				C034E9811F91E45100D19AE6 /* 1-TwoSum */,
 				C034E98C1F91E4A800D19AE6 /* 2-AddTwoNumbers */,
 				C034E9971F91E4C400D19AE6 /* 3-LongestSubstringWithoutRepeatingCharacters */,
@@ -2634,9 +2632,11 @@
 				C05402251FCBF79100F70BF1 /* 28-ImplementstrStr() */,
 				C05402301FCBFDE700F70BF1 /* 29-DivideTwoIntegers */,
 				C07D63551FCD4B9900AB92D5 /* 30-SubstringwithConcatenationofAllWords */,
+				C07889C41FD29DF800C10F3D /* 31-NextPermutation */,
 				C038E5961FD83FA800F2FDDC /* 32-LongestValidParentheses */,
 				C00C707D1FDADA8F002328C2 /* 33-SearchinRotatedSortedArray */,
 				C00C70881FDAE897002328C2 /* 34-SearchforaRange */,
+				C00A7CA11FCEC9D9002152E7 /* 35-SearchInsertPosition */,
 				C06C743C1FDBE38A0047DC69 /* 36-ValidSudoku */,
 				C05DBFEF1FDEE2FD009423DB /* 37-SudokuSolver */,
 				C0A18BE51FE01FC200648A3F /* 38-CountandSay */,
