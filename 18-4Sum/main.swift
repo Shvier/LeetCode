@@ -10,7 +10,7 @@ import Foundation
 
 class Solution {
     
-    static func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
+    func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
         var result = Array<Array<Int>>()
         let size = nums.count
         if size < 4 {
@@ -62,4 +62,5 @@ class Solution {
     
 }
 
-print(Solution.fourSum([1, 0, -1, 0, -2, 2], 0))
+let solution = Solution()
+print(solution.fourSum([1, 0, -1, 0, -2, 2], 0))
