@@ -20,6 +20,14 @@ class Solution {
         var commonPrefix = strs[0]
         for i in 1..<strs.count {
             commonPrefix = commonPrefix.commonPrefix(with: strs[i])
+            if commonPrefix == strs[i] {
+                let length = commonPrefix.lengthOfBytes(using: .utf8)
+                if length <= 1 {
+                    break
+                } else {
+                    commonPrefix = commonPrefix.substring(to: commonPrefix.index(commonPrefix.startIndex, offsetBy: commonPrefix.lengthOfBytes(using: .utf8)-1))
+                }
+            }
         }
         return commonPrefix
     }
