@@ -71,4 +71,4 @@ node3.next = node4
 node4.next = node5
 node5.next = nil
 let solution = Solution()
-solution.rotateRight(node1, 6)
+print(solution.rotateRight(node1, 6))
