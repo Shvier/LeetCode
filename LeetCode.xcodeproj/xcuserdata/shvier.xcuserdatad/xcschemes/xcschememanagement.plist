@@ -179,6 +179,11 @@
 			<key>orderHint</key>
 			<integer>128</integer>
 		</dict>
+		<key>132-PalindromePartitioningII.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>129</integer>
+		</dict>
 		<key>14-LongestCommonPrefix.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -863,6 +868,11 @@
 			<true/>
 		</dict>
 		<key>C058DAC720B5B92900BAC1B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C059AA5C20C2E7B500887645</key>
 		<dict>
 			<key>primary</key>
 			<true/>
