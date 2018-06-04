@@ -11,41 +11,28 @@ import Foundation
 class Solution {
     
     func minCut(_ s: String) -> Int {
-        var ans = Int.max
         let characters = [Character](s.characters)
         if characters.isEmpty {
             return 0
         }
-        var temp = [String]()
-        dfs(characters, &ans, &temp, 0)
-        return ans
-    }
-    
-    func dfs(_ characters: [Character], _ ans: inout Int, _ temp: inout [String], _ startIndex: Int) {
-        if startIndex == characters.count {
-            ans = min(ans, temp.count)
-            return
+        var ans = Array(repeating: 0, count: characters.count+1)
+        for index in 0...characters.count {
+            ans[index] = index - 1
         }
-        for offset in startIndex..<characters.count {
-            if isPalindrome(characters, startIndex, offset) {
-                temp.append(String(characters[startIndex...offset]))
-                dfs(characters, &ans, &temp, offset + 1)
-                let _ = temp.popLast()
+        var offset = 0
+        for index in 0..<characters.count {
+            offset = 0
+            while index - offset >= 0 && index + offset < characters.count && characters[index - offset] == characters[index + offset] {
+                ans[index + offset + 1] = min(ans[index + offset + 1], 1 + ans[index - offset])
+                offset = offset + 1
+            }
+            offset = 1
+            while index - offset + 1 >= 0 && index + offset < characters.count && characters[index - offset + 1] == characters[index + offset] {
+                ans[index + offset + 1] = min(ans[index + offset + 1], 1 + ans[index - offset + 1])
+                offset = offset + 1
             }
         }
-    }
-    
-    func isPalindromeString(_ characters: [Character], _ startIndex: Int, _ endIndex: Int) -> Bool {
-        var start = startIndex
-        var end = endIndex
-        while start <= end {
-            if characters[start] != characters[end] {
-                return false
-            }
-            start = start + 1
-            end = end - 1
-        }
-        return true
+        return ans[characters.count]
     }
     
 }
