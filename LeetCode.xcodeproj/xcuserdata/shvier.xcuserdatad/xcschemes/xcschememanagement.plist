@@ -184,6 +184,11 @@
 			<key>orderHint</key>
 			<integer>129</integer>
 		</dict>
+		<key>133-CloneGraph.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>130</integer>
+		</dict>
 		<key>14-LongestCommonPrefix.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -723,6 +728,11 @@
 			<true/>
 		</dict>
 		<key>C0335E17205408B40057BFC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C033F3C320C5448900055EB6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
