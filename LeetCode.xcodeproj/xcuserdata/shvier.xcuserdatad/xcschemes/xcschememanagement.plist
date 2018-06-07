@@ -189,6 +189,16 @@
 			<key>orderHint</key>
 			<integer>130</integer>
 		</dict>
+		<key>134-GasStation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>131</integer>
+		</dict>
+		<key>135-Candy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>133</integer>
+		</dict>
 		<key>14-LongestCommonPrefix.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -1263,6 +1273,11 @@
 			<true/>
 		</dict>
 		<key>C0D9AFCD20C655CE00D2DEA2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0D9AFE520C65CA600D2DEA2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
