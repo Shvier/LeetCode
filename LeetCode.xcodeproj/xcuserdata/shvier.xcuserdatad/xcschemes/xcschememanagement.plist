@@ -197,6 +197,11 @@
 		<key>135-Candy.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>132</integer>
+		</dict>
+		<key>136-SingleNumber.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>133</integer>
 		</dict>
 		<key>14-LongestCommonPrefix.xcscheme</key>
@@ -923,6 +928,11 @@
 			<true/>
 		</dict>
 		<key>C0625B98206D278500754E90</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0638DE920CA5E6600940260</key>
 		<dict>
 			<key>primary</key>
 			<true/>
