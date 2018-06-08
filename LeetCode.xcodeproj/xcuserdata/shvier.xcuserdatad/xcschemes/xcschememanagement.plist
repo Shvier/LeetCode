@@ -204,6 +204,11 @@
 			<key>orderHint</key>
 			<integer>133</integer>
 		</dict>
+		<key>137-SingleNumberII.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>134</integer>
+		</dict>
 		<key>14-LongestCommonPrefix.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -933,6 +938,11 @@
 			<true/>
 		</dict>
 		<key>C0638DE920CA5E6600940260</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0638DF420CA61A300940260</key>
 		<dict>
 			<key>primary</key>
 			<true/>
