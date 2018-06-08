@@ -209,6 +209,11 @@
 			<key>orderHint</key>
 			<integer>134</integer>
 		</dict>
+		<key>138-CopyListwithRandomPointer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>135</integer>
+		</dict>
 		<key>14-LongestCommonPrefix.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -943,6 +948,11 @@
 			<true/>
 		</dict>
 		<key>C0638DF420CA61A300940260</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0638E0A20CA652300940260</key>
 		<dict>
 			<key>primary</key>
 			<true/>
