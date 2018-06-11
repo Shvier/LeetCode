@@ -214,6 +214,11 @@
 			<key>orderHint</key>
 			<integer>135</integer>
 		</dict>
+		<key>139-WordBreak.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>136</integer>
+		</dict>
 		<key>14-LongestCommonPrefix.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -1108,6 +1113,11 @@
 			<true/>
 		</dict>
 		<key>C0991957206BE15F005FB5FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0992FA720CEC60000BCC27B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
