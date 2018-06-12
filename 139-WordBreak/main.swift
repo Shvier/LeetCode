@@ -12,28 +12,22 @@ class Solution {
     
     func wordBreak(_ s: String, _ wordDict: [String]) -> Bool {
         let characters = [Character](s.characters)
-        var visited = Array(repeating: 1, count: characters.count)
-        for word in wordDict {
-            if s.contains(word) {
-                var temp = s as NSString
-                while temp.contains(word) {
-                    let range = temp.range(of: word)
-                    for index in range.location..<range.location + range.length {
-                        visited[index] = 0
-                    }
-                    temp = temp.replacingCharacters(in: range, with: "") as NSString
+        let length = characters.count
+        var dp = Array(repeating: false, count: length + 1)
+        dp[0] = true
+        for i in 1...length {
+            for j in 0..<i {
+                let temp = String(characters[j..<i])
+                if dp[j] && wordDict.contains(temp) {
+                    dp[i] = true
+                    break
                 }
             }
         }
-        for value in visited {
-            if value == 1 {
-                return false
-            }
-        }
-        return true
+        return dp[length]
     }
     
 }
 
 let solution = Solution()
-print(solution.wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"]))
+print(solution.wordBreak("aaaaaaa", ["aaaa","aaa"]))
