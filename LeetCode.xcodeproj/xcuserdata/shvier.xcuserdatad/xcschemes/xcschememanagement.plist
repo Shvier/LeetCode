@@ -224,6 +224,11 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>140-WordBreakII.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>137</integer>
+		</dict>
 		<key>15-3Sum.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -873,6 +878,11 @@
 			<true/>
 		</dict>
 		<key>C0529439203D5FD000276535</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C053481820D0F23B00D4A344</key>
 		<dict>
 			<key>primary</key>
 			<true/>
