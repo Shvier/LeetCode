@@ -234,6 +234,11 @@
 			<key>orderHint</key>
 			<integer>138</integer>
 		</dict>
+		<key>142-LinkedListCycleII.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>139</integer>
+		</dict>
 		<key>15-3Sum.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -1053,6 +1058,11 @@
 			<true/>
 		</dict>
 		<key>C07D716A20D387FE003288DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C07D717720D398F1003288DE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
