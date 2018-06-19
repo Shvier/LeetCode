@@ -239,6 +239,11 @@
 			<key>orderHint</key>
 			<integer>139</integer>
 		</dict>
+		<key>143-ReorderList.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>140</integer>
+		</dict>
 		<key>15-3Sum.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -858,6 +863,11 @@
 			<true/>
 		</dict>
 		<key>C0446FE9203B1612001BEDB5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C04BA52A20D8D24000DF8ACE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
